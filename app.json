@@ -1,0 +1,112 @@
+{
+  "expo": {
+    "name": "Your App Name",
+    "slug": "yourappname",
+    "version": "1.0.0",
+    "plugins": [
+      [
+        "expo-document-picker",
+        {
+          "appleTeamId": "NHHHUJTTT",
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon96x96.png",
+          "color": "#ffffff",
+          "mode": "production"
+        }
+      ],
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "Classima wants to track you to collect IDFA to deliver personalised ads."
+        }
+      ]
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#f85c70",
+      "resizeMode": "cover"
+    },
+    "notification": {
+      "icon": "./assets/icon96x96.png",
+      "color": "#ffffff",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "usesAppleSignIn": true,
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourdomain",
+      "buildNumber": "1",
+      "usesIcloudStorage": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Your App Name uses the camera to capture and upload user profile image and Listing Image to the server.",
+        "NSPhotoLibraryUsageDescription": "Your App Name needs access to the photo library to select and upload user profile image and Listing Image to the server.",
+        "NSPhotoLibraryAddUsageDescription": "Your App Name needs access to the photo library to select and upload user profile image and Listing Image to the server.",
+        "NSLocationWhenInUseUsageDescription": "Your App Name usages device location on listing information, Listing search Data and User information.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Your App Name usages device location on listing information, Listing search Data and User information.",
+        "NSLocationAlwaysUsageDescription": "Your App Name uses device location on listing information, Listing search Data and User information.",
+        "NSMicrophoneUsageDescription": "Your App Name uses your microphone while taking video of your product for uploading in listing information.",
+        "CFBundleAllowMixedLocalizations": true,
+        "UIBackgroundModes": [
+          "remote-notification"
+        ],
+        "NSUserTrackingUsageDescription": "Classima wants to track you to collect IDFA to deliver personalised ads."
+      },
+      "config": {
+        "googleMapsApiKey": "mjo8H878ON7o7YN78NYH87HNYB87B87"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.YOURDOMAIN",
+      "config": {
+        "googleMaps": {
+          "apiKey": "mjo8H878ON7o7YN78NYH87HNYB87B87"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#fff"
+      },
+      "permissions": [
+        "CAMERA",
+        "CAMERA_ROLL",
+        "MEDIA_LIBRARY",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO",
+        "READ_PHONE_STATE",
+        "READ_CONTACTS",
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED"
+      ],
+      "versionCode": 17
+    },
+    "facebookScheme": "fb87867657656546545",
+    "facebookAppId": "87867657656546545",
+    "facebookDisplayName": "Your facebook app name",
+    "scheme": "yourscheme",
+    "extra": {
+      "eas": {
+        "projectId": "3d4ba7c7-d0dc-47e3-bf8a-d0a3cc5cddb1"
+      }
+    }
+  }
+}
