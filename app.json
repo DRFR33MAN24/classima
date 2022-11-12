@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Your App Name",
-    "slug": "yourappname",
+    "name": "Sabilstore",
+    "slug": "sabilstore",
     "version": "1.0.0",
     "plugins": [
       [
@@ -73,10 +73,11 @@
       "favicon": "./assets/favicon.png"
     },
     "android": {
-      "package": "com.YOURDOMAIN",
+      "googleServicesFile": "./google-services.json",
+      "package": "com.sabilstore",
       "config": {
         "googleMaps": {
-          "apiKey": "mjo8H878ON7o7YN78NYH87HNYB87B87"
+          "apiKey": "AIzaSyD6PtuS6NNCdz1kZQ6o8d7dinM7J6-x_QA"
         }
       },
       "adaptiveIcon": {
@@ -102,10 +103,10 @@
     "facebookScheme": "fb87867657656546545",
     "facebookAppId": "87867657656546545",
     "facebookDisplayName": "Your facebook app name",
-    "scheme": "yourscheme",
+    "scheme": "sabilstore",
     "extra": {
       "eas": {
-        "projectId": "3d4ba7c7-d0dc-47e3-bf8a-d0a3cc5cddb1"
+        "projectId": "d8e63bba-f232-4430-97ab-e9983c363ed1"
       }
     }
   }

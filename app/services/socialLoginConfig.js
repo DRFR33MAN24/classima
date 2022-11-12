@@ -3,7 +3,7 @@ export const socialConfig = {
   socialPlatforms: [], // Currently we only support Facebook and Google signin. We'll add more in future
   google: {
     webClientId:
-      "87987988979-hij87hyj897697hgb768g9b.apps.googleusercontent.com",
+      "745814608905-8o6u8nuvqtvl46bj71fplh1r51ev48um.apps.googleusercontent.com",
   },
   facebook: {
     appID: "87867657656546545",

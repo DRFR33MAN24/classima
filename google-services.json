@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "745814608905",
+    "project_id": "sabilstore-ddff4",
+    "storage_bucket": "sabilstore-ddff4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745814608905:android:d92fe21d562faae25fbcd8",
+        "android_client_info": {
+          "package_name": "com.sabilstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745814608905-v4ora4kprtk17rp3lb0o0ti8bq136fkf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sabilstore",
+            "certificate_hash": "0e843b2ef2483b3bc800ebf252ba934785dae95c"
+          }
+        },
+        {
+          "client_id": "745814608905-8o6u8nuvqtvl46bj71fplh1r51ev48um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADk6Nk1cioIhVKWfy9leHHdwmE6nlbhZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745814608905-8o6u8nuvqtvl46bj71fplh1r51ev48um.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

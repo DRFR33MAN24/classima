@@ -1,13 +1,13 @@
 {
   "screenTitles": {
-    "accountScreen": "حساب",
+    "accountScreen": "الحساب",
     "chatScreen": "دردشة",
-    "loginScreen": "تسجيل دخول",
+    "loginScreen": "تسجيل الدخول",
     "signUpScreen": "اشتراك",
     "settingsScreen": "إعدادات",
     "myListingsScreen": "القوائم الخاصة بي",
     "favoritesScreen": "المفضلة",
-    "reportScreen": "أبلغ",
+    "reportScreen": "تقرير",
     "myMembershipScreen": "عضويتي",
     "contactUsScreen": "اتصل بنا",
     "fAQScreen": "التعليمات",
@@ -15,9 +15,9 @@
     "moreScreen": "المزيد من الخيارات",
     "myProfileScreen": "ملفي",
     "editPersonalDetailScreen": "تحرير التفاصيل الشخصية",
-    "aboutAppScreen": "بشأن",
+    "aboutAppScreen": "معلومات عنا",
     "tNCScreen": "البنود و الظروف",
-    "privacyPolicyScreen": "سياسة خاصة",
+    "privacyPolicyScreen": "سياسة الخصوصية",
     "thirdPartyLicensesScreen": "تراخيص الطرف الثالث",
     "editListingScreen": "تحرير الإدراج",
     "selectLocationScreen": "اختر موقعا",
@@ -31,541 +31,515 @@
     "promoteScreen": "ترويج القائمة",
     "paymentsScreen": "المدفوعات",
     "paymentDetailScreen": "تفاصيل الدفع",
-    "forgotPassScreen": "نسيت كلمة المرور",
-    "oTPScreen": "التحقق باستخدام الهاتف",
+    "forgotPassScreen": "هل نسيت كلمة السر",
+    "oTPScreen": "التحقق من OTP",
     "documentsScreen": "مستنداتي"
   },
-
   "adMobTexts": {
-    "okButton": "موافق",
-    "appDisabledAlert": "This app delivers you ads using google AdMob. You need to enable tracking permission in order to get personalised ads. Go to permission settings and allow tracking for this app if you want to enable personalised ads."
+    "okButton": "نعم",
+    "appDisabledAlert": "يقدم لك هذا التطبيق إعلانات باستخدام Google AdMob. إذا كنت ترغب في تمكين الإعلانات المخصصة ، يمكنك السماح بالتتبع لهذا التطبيق من الإعدادات"
   },
-
   "weekDayNames": {
     "0": "الأحد",
     "1": "الاثنين",
-    "2": "الثلاثاء",
+    "2": "يوم الثلاثاء",
     "3": "الأربعاء",
-    "4": "الخميس",
-    "5": "الجمعة",
+    "4": "يوم الخميس",
+    "5": "جمعة",
     "6": "السبت"
   },
-
   "alerts": {
-    "notificationRegistrationFail": "Failed to register device for push notification",
-    "notificationPermission": "You must allow notifications to get push notification.",
-    "simulatorAlert": "Must use physical device for Push Notifications"
+    "notificationRegistrationFail": "فشل تسجيل الجهاز لإشعار الدفع",
+    "notificationPermission": "يجب أن تسمح للإخطارات بالحصول على إشعار الدفع.",
+    "simulatorAlert": "يجب استخدام الجهاز المادي لإشعارات الدفع"
   },
-
   "tabTitles": {
-    "home": "الأساسية",
-    "search": "بحث",
+    "home": "مسكن",
+    "search": "يبحث",
     "newListing": "إعلان آخر",
     "chatList": "الدردشات",
-    "account": "حساب"
+    "account": "الحساب"
   },
-
-  "headerBackButtonTitle": "Back",
-
+  "headerBackButtonTitle": "خلف",
   "accountScreenTexts": {
-    "loginButtonText": "Log in / Sign up",
-    "logOutButtonText": "Log out",
-    "successMessage": "SuccessFully logged out",
-    "loginTitle": "You must login to continue",
-    "deleteAccountBtn": "Delete Account",
-    "deleteAccountPrompt": "Do you want to delete your account?",
-    "okBtnTitle": "Ok",
-    "deleteAccountMessageTitle": "Warning!",
-    "deleteAccountMessage": "Are you sure you want to delete your account? This action can not be undone.",
-    "cancelBtnTitle": "Cancel",
-    "confirmBtnTitle": "Conform Delete Action"
+    "loginButtonText": "الدخول التسجيل فى الموقع",
+    "logOutButtonText": "تسجيل خروج",
+    "successMessage": "تم تسجيل خروجك بالكامل",
+    "loginTitle": "عليك تسجيل الدخول للاستمرار",
+    "deleteAccountBtn": "حذف الحساب",
+    "deleteAccountPrompt": "هل تريد حذف حسابك؟",
+    "okBtnTitle": "موافق",
+    "deleteAccountMessageTitle": "تحذير!",
+    "deleteAccountMessage": "هل انت متأكد انك تريد حذف حسابك؟ لا يمكن التراجع عن هذا الإجراء.",
+    "cancelBtnTitle": "يلغي",
+    "confirmBtnTitle": "توافق إجراء الحذف"
   },
-
   "settingsScreenTexts": {
     "screenTitle": "إعدادات",
-    "notificationTitle": "الاشعارات",
+    "notificationTitle": "تنبيه",
     "languageTitle": "لغة",
-    "ListingApprovalNotiTitle": "الموافقة على الاعلانات",
-    "newsletterNotiTitle": "البريد",
-    "messageNotiTitle": "محادثة جديدة",
-    "reminderBeforeListingExpire": "التذكير قبل انتهاء صلاحية الاعلان",
-    "expiredListingNotification": "المنتهية الصلاحية",
+    "ListingApprovalNotiTitle": "الموافقة على الإعلانات",
+    "newsletterNotiTitle": "النشرة الإخبارية",
+    "messageNotiTitle": "دردشة جديدة",
+    "reminderBeforeListingExpire": "تذكير قبل انتهاء صلاحية الإعلانات",
+    "expiredListingNotification": "قائمة منتهية الصلاحية",
     "onlyAdmin": {
-      "newListing": "اعلانات جديدة",
+      "newListing": "إعلانات جديدة",
       "newOrder": "طلبات جديدة",
       "newComment": "تعليق جديد"
     },
     "logoutbuttonTitle": "تسجيل خروج",
-    "viewStyleTitle": "تفضيلات القائمة",
+    "viewStyleTitle": "نمط عرض القائمة",
     "listView": "عرض القائمة"
   },
-
   "allStoresTexts": {
     "loadingText": "الحصول على بيانات المتجر",
     "noShopText": "عذرا ، لم يتم تسجيل أي متجر حتى الآن.",
     "storeAdCount": "إعلانات"
   },
-
+  "forgotScreenTexts": {
+    "title": "عنوان البريد الالكترونى",
+    "message": "أدخل عنوان بريدك الإلكتروني لإعادة تعيين كلمة المرور.",
+    "placeholder": "اسم المستخدم / عنوان البريد الإلكتروني",
+    "buttonTitle": "يكمل",
+    "passwordReset": "ستتلقى بريدًا إلكترونيًا يحتوي على رابط لإعادة تعيين كلمة المرور الخاصة بك.",
+    "resetSuccessMessage": "تم إرسال رابط لإعادة تعيين كلمة المرور الخاصة بك إلى بريدك الإلكتروني"
+  },
   "chatListScreenTexts": {
     "noChatTitleMessage": "حاليا ليس لديك أي محادثات",
     "noChatMessage": "ابدأ البيع والشراء!",
     "deletePromptMessage": "هل تريد حقًا حذف هذه المحادثة؟",
     "cancelButtonTitle": "يلغي",
     "deleteButtonTitle": "حذف",
-    "noUserMessage": "حاليا أنت لم تسجل الدخول\nالرجاء تسجيل الدخول أو التسجيل للحصول على بيانات الدردشة الخاصة بك",
+    "noUserMessage": "حاليا أنت لم تسجل الدخول\nيرجى تسجيل الدخول أو التسجيل للحصول على بيانات الدردشة الخاصة بك",
     "loadingMessage": "الحصول على قائمة المحادثات من الخادم",
     "chatDeleteSuccessText": "تم الحذف بنجاح",
     "chatDeleteErrorText": "خطأ! حاول مرة اخرى",
     "offlineNoticeText": "انت غير متصل",
-    "loginButtonTitle": "يسجل دخول / اشتراك",
+    "loginButtonTitle": "الدخول التسجيل فى الموقع",
     "scrollToRefresh": "قم بالتمرير لتحديث قائمة الدردشة"
   },
-
   "chatScreenTexts": {
-    "loadingMessage": "جلب بيانات المحادثات من المخدم",
-    "dactivatedMessage": "لقد قام المستلم بحذف المحادثة",
+    "loadingMessage": "الحصول على بيانات المحادثة من الخادم",
+    "dactivatedMessage": "قام المتلقي بحذف المحادثة",
     "placeholder": {
       "message": "اكتب رسالة"
     }
   },
-
   "contactUsScreenTexts": {
-    "sendmessageButtontitle": "ارسل رسالة",
-    "successMessage": "تم ارسال الرسالة بنجاح",
-    "customServerResponseError": "خطأ بالمخدم!",
+    "sendmessageButtontitle": "أرسل رسالة",
+    "successMessage": "أرسل رسالتك بنجاح",
+    "customServerResponseError": "خطأ في الخادم!",
     "formData": {
       "name": {
         "label": "اسمك",
-        "placeholder": "...ادخل اسمك",
-        "errorLabel": "الاسم"
+        "placeholder": "أدخل أسمك...",
+        "errorLabel": "اسم"
       },
       "phone": {
         "label": "رقم الهاتف",
-        "placeholder": "...ادخل رقم الهاتف",
+        "placeholder": "أدخل رقم الهاتف...",
         "errorLabel": "رقم الهاتف"
       },
       "email": {
-        "label": "البريد الالكتروني",
+        "label": "البريد الإلكتروني",
         "placeholder": "example@email.com",
-        "errorLabel": "البريد الالكتروني"
+        "errorLabel": "البريد الإلكتروني"
       },
       "message": {
-        "label": "الرسالة",
-        "placeholder": "...رسالتك",
-        "errorLabel": "الرسالة"
+        "label": "رسالة",
+        "placeholder": "رسالتك...",
+        "errorLabel": "رسالة"
       }
-    },
-    "formValidation": {
-      "requiredField": "حقل مطلوب",
-      "minimumLength5": "يجب ادخال 5 احرف على الاقل",
-      "minimumLength3": "يجب ادخال 3 احرف على الاقل",
-      "validEmail": "يجب ادحال بريد صالح"
-    }
-  },
-
-  "editListingScreenTexts": {
-    "title": "Listing Edit Form",
-    "formFieldLabels": {
-      "listingTitle": "العنوان",
-      "pricingLabel": "السعر",
-      "priceType": "نوع السعر",
-      "price": "السعر",
-      "maxPrice": "السعر الاعظمي",
-      "listingDescription": "الوصف",
-      "videoUrl": "رابط الفيديو",
-      "contact": "بيانات التواصل",
-      "zipCode": "الرمز البريدي",
-      "address": "العنوان",
-      "phone": "الهاتف",
-      "whatsapp": "Whatsapp",
-      "email": "البريد الالكتروني",
-      "website": "موقع الويب",
-      "name": "الاسم",
-      "imageInput": "الصور",
-      "formTitle": "معلومات المنتج",
-      "title": "العنوان"
     },
     "formValidation": {
       "requiredField": "مطلوب.",
-      "minimumLength5": "يجب ادخال 5 احرف على الاقل",
-      "minimumLength3": "يجب ادخال 3 احرف على الاقل ",
-      "validEmail": "الرجاء ادخال بريد صالح",
-      "validUrl": "ادخل موقع ويب صالح"
-    },
-    "buttonTitles": {
-      "tryAgain": "Try Again",
-      "updateListing": "Update Listing",
-      "mapStandard": "Standard",
-      "mapHybrid": "Hybrid"
-    },
-    "mapToggleMessage": "Don't show the map.",
-    "whatsappNote": "Whatsapp number with your country code. Eg.+1xxxxxxxxxx",
-    "uploadErrorNotice": "Error uploading! Please try again.",
-    "uploadingNotice": "This may take a while depending on the speed of your internet connection...",
-    "maxImageCount": "You can upload up to ",
-    "images": " images.",
-    "dragAndSort": "Long press to drag and sort images.",
-    "loading": "Getting listing data",
-    "geoCoderFail": "Map Service Error!",
-    "imageFieldCustomError": "Image is required",
-    "requiredFieldCustomError": "This field is required",
-    "websiteErrorLabel": "Enter Correct Url!",
-    "videoUrlErrorLabel": "Enter Url in correct format!",
-    "videoUrlNote": "E.g.https://www.youtube.com/watch?v=RiXdDGk_XCU",
-    "requiredFieldNotice": "*** Fields marked with red star are required ***",
-    "socialProfileTitle": "Social Profiles"
+      "minimumLength5": "يجب أن يكون 5 أحرف على الأقل.",
+      "minimumLength3": "يجب ألا يقل عن 3 أحرف.",
+      "validEmail": "يجب أن يكون بريدًا إلكترونيًا صالحًا."
+    }
   },
-
-  "editPersonalDetailScreenTexts": {
-    "screenTitle": "Personal Detail",
-    "changePhotoButtonTitle": "Change Photo",
-    "updateDetailsButtonTitle": "Save Information",
-    "passwordToggleText": "Change Password",
-    "passwordNotSameMessage": "Password didn't match",
-    "successText": "Successfully updated",
-    "errorText": "Error! Please try again",
-    "cancelButtonTitle": "Cancel",
-    "addPhotoTitle": "Add Photo",
-    "takePhotoButtonTitle": "Take Photo",
-    "fromGalleryButtonTitle": "From Gallery",
-    "fieldLabels": {
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "changePassword": "Change Password",
-      "newPassword": "New Password",
-      "confirmPassword": "Confirm Password",
-      "phone": "Phone Number",
-      "whatsapp": "Whatsapp Number",
-      "website": "Website",
-      "zipcode": "Zip Code",
-      "address": "Address",
-      "locations": "Locations",
-      "password": "Password"
+  "editListingScreenTexts": {
+    "title": "نموذج تحرير القائمة",
+    "formFieldLabels": {
+      "listingTitle": "عنوان",
+      "pricingLabel": "التسعير",
+      "priceType": "نوع السعر",
+      "price": "سعر",
+      "maxPrice": "السعر الأقصى",
+      "listingDescription": "وصف",
+      "videoUrl": "رابط الفيديو",
+      "contact": "بيانات المتصل",
+      "zipCode": "الرمز البريدي",
+      "address": "تبوك",
+      "phone": "هاتف",
+      "whatsapp": "ال WhatsApp",
+      "email": "البريد الإلكتروني",
+      "website": "موقع الكتروني",
+      "name": "اسم",
+      "imageInput": "الصور",
+      "formTitle": "معلومات المنتج",
+      "title": "عنوان"
     },
     "formValidation": {
-      "requiredField": "is required.",
-      "minimumLength5": "must be at least 5 characters.",
-      "minimumLength3": "must be at least 3 characters.",
-      "validUrl": "Must be a valid URL."
+      "requiredField": "مطلوب.",
+      "minimumLength5": "يجب أن يكون 5 أحرف على الأقل.",
+      "minimumLength3": "يجب ألا يقل عن 3 أحرف.",
+      "validEmail": "يجب أن يكون بريدًا إلكترونيًا صالحًا.",
+      "validUrl": "يجب أن يكون عنوان URL صالحًا."
     },
-    "enterNewPassword": "Enter New Password",
-    "reEnterPassword": "Re-enter Password",
-    "cameraRollPermissionAlert": "You need to enable permission to access image library ",
-    "cameraPermissionAlert": "You need to enable permission to access camera "
+    "buttonTitles": {
+      "tryAgain": "حاول ثانية",
+      "updateListing": "تحديث القائمة",
+      "mapStandard": "اساسي",
+      "mapHybrid": "هجين"
+    },
+    "mapToggleMessage": "لا تظهر الخريطة.",
+    "whatsappNote": "رقم Whatsapp مع رمز البلد الخاص بك. على سبيل المثال: + 1xxxxxxxxxx",
+    "uploadErrorNotice": "خطأ في الرفع! حاول مرة اخرى.",
+    "uploadingNotice": "قد يستغرق هذا بعض الوقت حسب سرعة اتصالك بالإنترنت ...",
+    "maxImageCount": "يمكنك تحميل ما يصل إلى",
+    "images": "الصور.",
+    "dragAndSort": "اضغط مع الاستمرار لسحب الصور وفرزها.",
+    "loading": "الحصول على بيانات القائمة",
+    "geoCoderFail": "خطأ في خدمة الخريطة!",
+    "imageFieldCustomError": "الصورة مطلوبة",
+    "requiredFieldCustomError": "هذه الخانة مطلوبه",
+    "websiteErrorLabel": "أدخل عنوان URL الصحيح!",
+    "videoUrlErrorLabel": "أدخل عنوان URL بالتنسيق الصحيح!",
+    "videoUrlNote": "مثالhttps://www.youtube.com/watch?v=RiXdDGk_XCU",
+    "requiredFieldNotice": "*** الحقول التي عليها نجمة حمراء مطلوبة ***",
+    "socialProfileTitle": "لمحات اجتماعية"
   },
-
+  "editPersonalDetailScreenTexts": {
+    "screenTitle": "التفاصيل الشخصية",
+    "changePhotoButtonTitle": "غير الصوره",
+    "updateDetailsButtonTitle": "حفظ المعلومات",
+    "passwordToggleText": "غير كلمة السر",
+    "passwordNotSameMessage": "كلمة المرور غير متطابقة",
+    "successText": "تم التحديث بنجاح",
+    "errorText": "خطأ! حاول مرة اخرى",
+    "cancelButtonTitle": "يلغي",
+    "addPhotoTitle": "إضافة صورة",
+    "takePhotoButtonTitle": "تصوير",
+    "fromGalleryButtonTitle": "من المعرض",
+    "fieldLabels": {
+      "firstName": "الاسم الاول",
+      "lastName": "الكنية",
+      "changePassword": "غير كلمة السر",
+      "newPassword": "كلمة السر الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "phone": "رقم الهاتف",
+      "whatsapp": "رقم الواتس اب",
+      "website": "موقع الكتروني",
+      "zipcode": "الرمز البريدي",
+      "address": "تبوك",
+      "locations": "المواقع",
+      "password": "كلمة المرور"
+    },
+    "formValidation": {
+      "requiredField": "مطلوب.",
+      "minimumLength5": "يجب أن يكون 5 أحرف على الأقل.",
+      "minimumLength3": "يجب ألا يقل عن 3 أحرف.",
+      "validUrl": "يجب أن يكون عنوان URL صالحًا."
+    },
+    "enterNewPassword": "أدخل كلمة مرور جديدة",
+    "reEnterPassword": "إعادة إدخال كلمة المرور",
+    "cameraRollPermissionAlert": "تحتاج إلى تمكين إذن للوصول إلى مكتبة الصور",
+    "cameraPermissionAlert": "تحتاج إلى تمكين إذن للوصول إلى الكاميرا"
+  },
   "favoritesScreenTexts": {
-    "removePromptMessage": "Do You want to remove this ad from your favorites?",
-    "cancelButtonTitle": "Cancel",
-    "removeButtonTitle": "Remove",
-    "noFavoriteMessage": "You don’t have any ads in your favorites yet.",
-    "exploreTitle": "See All Ads",
-    "loadingMessage": "Getting favorite listings",
-    "favRemoveSuccessMessage": "Successfully removed",
-    "favRemoveErrorCustomMessage": "Error! Please try again",
-    "customServerResponseError": "Error getting data from server",
-    "noInternet": "No Internet"
+    "removePromptMessage": "هل تريد إزالة هذا الإعلان من المفضلة لديك؟",
+    "cancelButtonTitle": "يلغي",
+    "removeButtonTitle": "إزالة",
+    "noFavoriteMessage": "ليس لديك أي إعلانات في المفضلة حتى الآن.",
+    "exploreTitle": "مشاهدة جميع الإعلانات",
+    "loadingMessage": "الحصول على القوائم المفضلة",
+    "favRemoveSuccessMessage": "تمت الإزالة بنجاح",
+    "favRemoveErrorCustomMessage": "خطأ! حاول مرة اخرى",
+    "customServerResponseError": "خطأ في الحصول على البيانات من الخادم",
+    "noInternet": "لا انترنت"
   },
-
   "homeScreenTexts": {
-    "selectCatBtn": "Change",
+    "selectCatBtn": "يتغيرون",
     "seAllButtonText": "عرض جميع الفئات",
     "loadingMessage": "الحصول على قوائم من الخادم",
-    "listingSearchPlaceholder": "بحث...",
+    "listingSearchPlaceholder": "يبحث...",
     "noListingsMessage": "آسف، لا توجد قوائم.",
     "selectLocationText": "موقع",
     "latestAdsText": "أحدث الإعلانات",
-    "topCategoriesText": "التصنيفات",
+    "topCategoriesText": "فئات",
     "requestTimedOut": "الطلب منتهي المدة!",
-    "exitAppWarning": "Are you sure you want to exit the app?",
-    "cancelButtonTitle": "Cancel",
-    "yesButtonTitle": "Yes"
+    "exitAppWarning": "هل أنت متأكد أنك تريد الخروج من التطبيق؟",
+    "cancelButtonTitle": "يلغي",
+    "yesButtonTitle": "نعم"
   },
-
   "listingDetailScreenTexts": {
-    "loadingText": "Getting listing data",
-    "soldOutMessage": "Sold out",
-    "cancelButtonTitle": "Cancel",
-    "loginButtonTitle": "Login",
-    "pageTitle": "Details",
-    "showLess": "Show Less",
-    "showMore": "Show More",
-    "sellerPrefix": "For sale by ",
-    "description": "Description",
+    "loadingText": "الحصول على بيانات القائمة",
+    "soldOutMessage": "نفذ",
+    "cancelButtonTitle": "يلغي",
+    "loginButtonTitle": "تسجيل الدخول",
+    "pageTitle": "تفاصيل",
+    "showLess": "عرض أقل",
+    "showMore": "أظهر المزيد",
+    "sellerPrefix": "للبيع",
+    "description": "وصف",
     "mapButtons": {
-      "standard": "Standard",
-      "hybrid": "Hybrid"
+      "standard": "اساسي",
+      "hybrid": "هجين"
     },
-    "reportAd": "Report this ad",
-    "similar": "Similar Ads",
-    "call": "Call ",
+    "reportAd": "الإبلاغ عن هذا الإعلان",
+    "similar": "إعلانات مماثلة",
+    "call": "مكالمة",
     "custom_fields": {
       "date_range": {
-        "start": "Start : ",
-        "end": "End : "
+        "start": "بداية :",
+        "end": "نهاية :"
       },
       "date_time_range": {
-        "start": "Start : ",
-        "end": "End : "
+        "start": "بداية :",
+        "end": "نهاية :"
       }
     },
-    "chatLoginAlert": "Please login to chat with this seller",
-    "emailLoginAlert": "Please login to send mail to seller",
-    "loginAlert": "Please login use this feature.",
+    "chatLoginAlert": "الرجاء تسجيل الدخول للدردشة مع هذا البائع",
+    "emailLoginAlert": "الرجاء تسجيل الدخول لإرسال البريد إلى البائع",
+    "loginAlert": "الرجاء تسجيل الدخول استخدام هذه الميزة.",
     "priceTypes": {
-      "fixed": "Fixed",
-      "onCall": "On Call",
-      "negotiable": "Negotiable"
+      "fixed": "مُثَبَّت",
+      "onCall": "في مكالمة",
+      "negotiable": "قابل للتفاوض"
     },
-    "socialProfileTitle": "Social Profiles",
-    "businessHoursTitle": "Open Hours",
+    "socialProfileTitle": "لمحات اجتماعية",
+    "businessHoursTitle": "ساعات مفتوحة",
     "bHTexts": {
-      "openTitle": "Open",
-      "closeTitle": "Close",
-      "openText": "Open (24 Hours)",
-      "openTodayText": "Open Today (24 Hours)",
-      "closeText": "Closed",
-      "closeTodayText": "Closed Today",
-      "currentStatusOpen": "We are currently open.",
-      "currentStatusClose": "Sorry, we are currently closed."
+      "openTitle": "فتح",
+      "closeTitle": "قريب",
+      "openText": "مفتوحة 24 ساعة)",
+      "openTodayText": "مفتوح اليوم (24 ساعة)",
+      "closeText": "مغلق",
+      "closeTodayText": "مغلق اليوم",
+      "currentStatusOpen": "نحن مفتوحون حاليا.",
+      "currentStatusClose": "عذرا ، نحن مغلقون حاليا."
     },
-    "whatsappButton": "Open Whatsapp",
-    "showRatingBtn": "Show Ratings",
-    "hideRatingBtn": "Hide Ratings",
+    "whatsappButton": "افتح Whatsapp",
+    "showRatingBtn": "إظهار التقييمات",
+    "hideRatingBtn": "إخفاء التقييمات",
     "ratingHeader": {
-      "zero": "No Rating",
-      "single": " Review",
-      "multiple": " Reviews"
+      "zero": "لا يوجد تقييم",
+      "single": "إعادة النظر",
+      "multiple": "المراجعات"
     },
-    "ratingFormTitle": "Leave a Review",
-    "ratingFormNotice": "Your email address will not be published. Required fields are marked with red star.",
+    "ratingFormTitle": "ترك التعليق",
+    "ratingFormNotice": "لن يتم نشر عنوان بريدك الإلكتروني. الحقول المطلوبة مشار إليها بنجمة حمراء.",
     "formLabels": {
-      "name": "Name",
-      "email": "Email",
-      "title": "Review Title",
-      "rating": "Your Rating",
-      "review": "Your Review"
+      "name": "اسم",
+      "email": "البريد الإلكتروني",
+      "title": "مراجعة العنوان",
+      "rating": "تقييمك",
+      "review": "مراجعتك"
     },
     "formValidation": {
-      "required": "is required",
-      "invalid": "is invalid"
+      "required": "مطلوب",
+      "invalid": "غير صالح"
     },
-    "submitBtn": "Submit",
-    "reviewNotice": "Your review has been successfully submitted. Once it gets approved, it'll be shown with the other reviews.",
-    "reviewApproved": "Review was successful.",
-    "postTimePrefix": "Posted on ",
-    "deletedValue": "[Value removed by admin]",
-    "seeAllAds": "See All Ads",
-    "verified": "Verified Seller"
+    "submitBtn": "يُقدِّم",
+    "reviewNotice": "تم تقديم رأيك بنجاح. بمجرد الموافقة عليه ، سيتم عرضه مع المراجعات الأخرى.",
+    "reviewApproved": "كانت المراجعة ناجحة.",
+    "postTimePrefix": "نشر على",
+    "deletedValue": "[تمت إزالة القيمة بواسطة المشرف]",
+    "seeAllAds": "مشاهدة جميع الإعلانات",
+    "verified": "بائع معتمد"
   },
-
-  "oTPScreenText": {
-    "phoneInputTitle": "Enter Phone Number",
-    "oTPInputTitle": "Enter OTP",
-    "phoneInputPlaceHolder": "Phone number",
-    "getOTPButtonTitle": "Send OTP",
-    "verifyBtnTitle": "Verify",
-    "retryBtnTitle": "Resend Otp",
-    "successTitle": "Verification Successful",
-    "errorTitle": "Verification Failed",
-    "successMessage": "Phone number is successfully verified.",
-    "errorMessage": "Error verifying OTP",
-    "okBtnTitle": "Ok",
-    "signUpBtnTitle": "Complete Sign Up"
-  },
-
   "loginScreenTexts": {
-    "signUpPrompt": "Don't have account?",
-    "loginTitle": "Sign In",
+    "signUpPrompt": "ليس لديك حساب؟",
+    "loginTitle": "تسجيل الدخول",
     "formFieldsPlaceholder": {
-      "username": "Username / Email",
-      "password": "Password"
+      "username": "اسم المستخدم / البريد الإلكتروني",
+      "password": "كلمة المرور"
     },
-    "forgotPassword": "Forgot your password?",
-    "cancelButtonTitle": "Cancel",
-    "signUpButtonTitle": "Create Account",
-    "loginButtonTitle": "Login",
-    "loginSuccessMessage": "Successfully loged in",
+    "forgotPassword": "هل نسيت كلمة السر؟",
+    "cancelButtonTitle": "يلغي",
+    "signUpButtonTitle": "إصنع حساب",
+    "loginButtonTitle": "تسجيل الدخول",
+    "loginSuccessMessage": "تم تسجيل الدخول بنجاح",
     "formFieldsLabel": {
-      "username": "Username",
-      "password": "Password",
-      "reset": "Username/Email"
+      "username": "اسم المستخدم",
+      "password": "كلمة المرور",
+      "reset": "اسم المستخدم / البريد الإلكتروني"
     },
     "formValidation": {
-      "requiredField": "is required.",
-      "minimumLength3": "must be at least 3 characters."
+      "requiredField": "مطلوب.",
+      "minimumLength3": "يجب ألا يقل عن 3 أحرف."
     },
-    "customResponseError": "Server error",
+    "customResponseError": "خطأ في الخادم",
     "socialButtonTitle": {
-      "facebook": "Facebook",
-      "google": "Google"
+      "facebook": "فيسبوك",
+      "google": "جوجل"
     },
-    "pleaseWaitText": "Please Wait!",
-    "socialLoginText": "Or Login With"
+    "pleaseWaitText": "أرجو الإنتظار!",
+    "socialLoginText": "أو تسجيل الدخول باستخدام"
   },
-  "forgotScreenTexts": {
-    "title": "Email Address",
-    "message": "Enter your email address to reset password.",
-    "placeholder": "Username / Email Address",
-    "buttonTitle": "Continue",
-
-    "passwordReset": "You will receive an email with a link to reset your password.",
-    "resetSuccessMessage": "A Link to reset your password was sent to your email"
-  },
-
   "membershipsScreenTexts": {
-    "makePayment": "Make Payment"
+    "makePayment": "قم بالدفع"
   },
-
+  "oTPScreenText": {
+    "phoneInputTitle": "أدخل رقم الهاتف",
+    "oTPInputTitle": "أدخل OTP",
+    "phoneInputPlaceHolder": "رقم الهاتف",
+    "getOTPButtonTitle": "أرسل OTP",
+    "verifyBtnTitle": "يؤكد",
+    "retryBtnTitle": "إعادة إرسال Otp",
+    "successTitle": "تم التحقق بنجاح",
+    "errorTitle": "فشل التحقق",
+    "successMessage": "تم التحقق من رقم الهاتف بنجاح.",
+    "errorMessage": "خطأ في التحقق من OTP",
+    "okBtnTitle": "موافق",
+    "signUpBtnTitle": "أكمل التسجيل"
+  },
   "myListingsScreenTexts": {
-    "loggedOut": "You are not logged in.",
-    "deletePromptMessage": "Do You want to delete",
-    "editPromptMessage": "Do You want to edit",
-    "promotePromptMessage": "Do You want to promote",
-    "soldPromptMessage": "Do You want to mark",
-    "asUnsold": "as unsold",
-    "asSold": "as sold",
-    "cancelButtonTitle": "Cancel",
-    "okayButtonTitle": "Ok",
-    "deleteButtonTitle": "Delete",
-    "editButtonTitle": "Edit",
-    "promoteButtonTitle": "Promote",
-    "noAdTitle": "Currently you don't have any ad!",
-    "postAdButtonTitle": "Create new ad!",
-    "loadingMessage": "Getting user's ad",
-    "listingDeleteSuccessText": "Successfully deleted",
-    "listingDeleteErrorText": "Error! Please try again",
+    "loggedOut": "لم يتم دخولك.",
+    "deletePromptMessage": "هل تريد أن تحذف",
+    "editPromptMessage": "هل تريد التعديل",
+    "promotePromptMessage": "هل تريد الترويج",
+    "soldPromptMessage": "هل تريد وضع علامة",
+    "asUnsold": "غير مباعة",
+    "asSold": "كما بيعت",
+    "cancelButtonTitle": "يلغي",
+    "okayButtonTitle": "موافق",
+    "deleteButtonTitle": "حذف",
+    "editButtonTitle": "يحرر",
+    "promoteButtonTitle": "يرقي",
+    "noAdTitle": "حاليا ليس لديك أي إعلان!",
+    "postAdButtonTitle": "إنشاء إعلان جديد!",
+    "loadingMessage": "الحصول على إعلان المستخدم",
+    "listingDeleteSuccessText": "تم الحذف بنجاح",
+    "listingDeleteErrorText": "خطأ! حاول مرة اخرى",
     "actionMenuButtons": {
-      "edit": "Edit",
-      "delete": "Delete",
-      "promote": "Promote",
-      "sold": "Mark as sold",
-      "unsold": "Mark as unsold"
+      "edit": "يحرر",
+      "delete": "حذف",
+      "promote": "يرقي",
+      "sold": "وضع علامة على أنه مباع",
+      "unsold": "وضع علامة غير مباعة"
     },
-
     "promoteLink": "https://radiustheme.com/",
-    "customServerErrorMessage": "Error gettion data from server.",
-    "noInternet": "No Internet"
+    "customServerErrorMessage": "بيانات الحصول على خطأ من الخادم.",
+    "noInternet": "لا انترنت"
   },
-
   "myMembershipScreenTexts": {
-    "title": "Become our member!",
-    "membershipText": "Membership gives your business a voice and presence on our platform to reach more customers,increase your sales and expand your business!",
-    "emailLabel": " : Email",
-    "membershipDetailHeader": "Membership Report",
-    "membershipStatusLabel": " : Status",
-    "membershipValidityLabel": " : Validity",
-    "remainingAdsLabel": " : Remaining Ads",
-    "postedAdsLabel": " : Posted Ads",
-    "remainingAdsTableLabel": "Remaining Ads",
-    "membershipValidityTableLabel": "Validity",
-    "upgradeMembershipPackageButtonTitle": "Show More Packages",
-    "showMembershipPackageButtonTitle": "Show Membership Packages",
-    "active": "Active",
-    "expired": "Expired",
-    "till": "Till",
-    "expiredOn": "Expired on",
-    "promotions": "Promotions",
-    "validityUnit": "Days"
+    "title": "كن عضوا لدينا!",
+    "membershipText": "تمنح العضوية لعملك صوتًا وحضورًا على منصتنا للوصول إلى المزيد من العملاء وزيادة مبيعاتك وتوسيع نطاق عملك!",
+    "emailLabel": "البريد الإلكتروني :",
+    "membershipDetailHeader": "تقرير العضوية",
+    "membershipStatusLabel": "حالة :",
+    "membershipValidityLabel": "صلاحية :",
+    "remainingAdsLabel": "الإعلانات المتبقية:",
+    "postedAdsLabel": "الإعلانات المنشورة:",
+    "remainingAdsTableLabel": "الإعلانات المتبقية",
+    "membershipValidityTableLabel": "صلاحية",
+    "upgradeMembershipPackageButtonTitle": "عرض المزيد من الحزم",
+    "showMembershipPackageButtonTitle": "إظهار حزم العضوية",
+    "active": "نشيط",
+    "expired": "منتهي الصلاحية",
+    "till": "حتى",
+    "expiredOn": "انتهت يوم",
+    "promotions": "الترقيات",
+    "validityUnit": "أيام"
   },
-
   "myProfileScreenTexts": {
-    "loadingMessage": "Getting user information",
-    "customResponseError": "Error getting data from server",
+    "loadingMessage": "الحصول على معلومات المستخدم",
+    "customResponseError": "خطأ في الحصول على البيانات من الخادم",
     "profileInfoLabels": {
-      "name": "Full Name",
-      "email": "Email Address",
-      "phone": "Phone Number",
-      "whatsapp": "Whatsapp",
-      "address": "Location",
-      "website": "Website"
+      "name": "الاسم الكامل",
+      "email": "عنوان البريد الالكترونى",
+      "phone": "رقم الهاتف",
+      "whatsapp": "ال WhatsApp",
+      "address": "موقع",
+      "website": "موقع الكتروني"
     },
-    "noInternet": "No Internet",
-    "screenTitle": "Personal Information",
-    "infoSectionTitle": "Personal Information",
-    "editButtonTitle": "Edit Information",
-    "verifyBtnTitle": "Verify"
+    "noInternet": "لا انترنت",
+    "screenTitle": "معلومات شخصية",
+    "infoSectionTitle": "معلومات شخصية",
+    "editButtonTitle": "تعديل المعلومات",
+    "verifyBtnTitle": "يؤكد",
+    "addPhoneBtnTitle": "أضف رقم الهاتف"
   },
-
   "myStoreTexts": {
-    "banner": "Store Banner",
-    "closed": "Closed",
-    "noBanner": "No Banner Uploaded Yet",
-    "logo": "Store Logo",
-    "schedule": "Store Schedule",
-    "hours": "Opening Hours",
-    "selectHours": "Select Opening Hours",
-    "info": "Store Information",
-    "slug": "Store Slug / URL",
-    "storeName": "Store Name",
-    "storeSlogan": "Store Slogan",
-    "storeEmail": "Store Email",
-    "storePhone": "Store Phone",
-    "storeWebsite": "Store Website",
-    "storeAddress": "Store Address",
-    "storeDescription": "Store Description",
-    "storeSocial": "Store Social Links",
-    "facebook": "Facebook URL",
-    "youtube": "Youtube URL",
+    "banner": "لافتة المتجر",
+    "closed": "مغلق",
+    "noBanner": "لم يتم تحميل أي لافتة حتى الآن",
+    "logo": "شعار المتجر",
+    "schedule": "جدول المتجر",
+    "hours": "ساعات العمل",
+    "selectHours": "حدد ساعات العمل",
+    "info": "معلومات المتجر",
+    "slug": "تخزين Slug / URL",
+    "storeName": "اسم المتجر",
+    "storeSlogan": "شعار المتجر",
+    "storeEmail": "البريد الإلكتروني الخاص بالمتجر",
+    "storePhone": "هاتف المتجر",
+    "storeWebsite": "موقع المتجر",
+    "storeAddress": "عنوان المتجر",
+    "storeDescription": "وصف المتجر",
+    "storeSocial": "تخزين الروابط الاجتماعية",
+    "facebook": "URL الفيسبوك",
+    "youtube": "يوتيوب URL",
     "twitter": "Twitter URL",
-    "linkedin": "LinkedIn URL",
-    "updateStoreButtonTitle": "Update Store",
-    "imagePickerTitle": "Add Photo",
-    "imagePickerCameraText": "Take Photo",
-    "imagePickerGalleryText": "From Gallery",
+    "linkedin": "ينكدين URL",
+    "updateStoreButtonTitle": "تحديث المتجر",
+    "imagePickerTitle": "إضافة صورة",
+    "imagePickerCameraText": "تصوير",
+    "imagePickerGalleryText": "من المعرض",
     "errorFieldNames": {
-      "slug": "Store Slug / URL",
-      "title": "Store Name",
-      "slogan": "Store Slogan",
-      "email": "Email",
-      "phone": "Phone",
-      "address": "Address",
-      "website": "Website",
-      "description": "Description",
-      "facebook": "Facebook",
-      "youtube": "Youtube",
-      "twitter": "Twitter",
-      "linkedin": "LinkedIn"
+      "slug": "تخزين Slug / URL",
+      "title": "اسم المتجر",
+      "slogan": "شعار المتجر",
+      "email": "البريد الإلكتروني",
+      "phone": "هاتف",
+      "address": "تبوك",
+      "website": "موقع الكتروني",
+      "description": "وصف",
+      "facebook": "فيسبوك",
+      "youtube": "موقع يوتيوب",
+      "twitter": "تويتر",
+      "linkedin": "ينكدين"
     },
     "placeHolders": {
-      "slug": "Store Slug",
-      "title": "Store Name",
-      "slogan": "Store Slogan",
+      "slug": "تخزين سبيكة",
+      "title": "اسم المتجر",
+      "slogan": "شعار المتجر",
       "email": "yourstore@store.com",
       "phone": "+0123456789",
-      "address": "Store Address",
+      "address": "عنوان المتجر",
       "website": "https://www.yourstore.com",
-      "description": "Store Description",
+      "description": "وصف المتجر",
       "facebook": "https://www.facebook.com/yourstore",
       "youtube": "https://www.youtube.com/yourstore",
       "twitter": "https://www.twitter.com/yourstore",
       "linkedin": "https://www.linkedin.com/yourstore"
     },
     "formValidation": {
-      "requiredField": "is required.",
-      "minimumLength5": "must be at least 5 characters.",
-      "minimumLength3": "must be at least 3 characters.",
-      "validEmail": "Must be a valid email.",
-      "validUrl": "Must be a valid URL."
+      "requiredField": "مطلوب.",
+      "minimumLength5": "يجب أن يكون 5 أحرف على الأقل.",
+      "minimumLength3": "يجب ألا يقل عن 3 أحرف.",
+      "validEmail": "يجب أن يكون بريدًا إلكترونيًا صالحًا.",
+      "validUrl": "يجب أن يكون عنوان URL صالحًا."
     },
     "successNotifications": {
-      "logo": "Succesfully updated logo.",
-      "banner": "Succesfully updated banner.",
-      "storeInfo": "Succesfully updated store information."
+      "logo": "تم تحديث الشعار بنجاح.",
+      "banner": "تم تحديث البانر بنجاح.",
+      "storeInfo": "تم تحديث معلومات المتجر بنجاح."
     },
-    "errorNotification": "Server error. Please Try later.",
-    "userHasNoStore": "User has no store.",
-    "storeCreateMessage": "Do you want to create your store?",
-    "createStoreButtonTitle": "Create Store",
-    "cancelButtonTitle": "Cancel",
-    "cameraRollPermissionAlert": "You need to enable camera roll permission to use this feature",
-
-    "cameraPermissionAlert": "You need to enable permission to access your camera",
-    "recommendedSize": "Recommended size (",
-    "maximum": "Maximum ",
-    "alwaysOpen": "Always Open"
+    "errorNotification": "خطأ في الخادم. يرجى المحاولة لاحقًا.",
+    "userHasNoStore": "المستخدم ليس لديه متجر.",
+    "storeCreateMessage": "هل تريد إنشاء متجرك؟",
+    "createStoreButtonTitle": "إنشاء متجر",
+    "cancelButtonTitle": "يلغي",
+    "cameraRollPermissionAlert": "تحتاج إلى تمكين إذن لفة الكاميرا لاستخدام هذه الميزة",
+    "cameraPermissionAlert": "تحتاج إلى تمكين إذن للوصول إلى الكاميرا الخاصة بك",
+    "recommendedSize": "الحجم الموصى به (",
+    "maximum": "أقصى",
+    "alwaysOpen": "دائما مفتوح"
   },
-
   "newListingScreenTexts": {
     "title": "نموذج القيد",
     "selectType": "حدد النوع",
@@ -574,43 +548,39 @@
     "eligibilityChecking": "التحقق من أهلية المؤلف",
     "noRemainingAds": "آسف! ليس لديك أي إعلانات متبقية",
     "purchaseMembership": "يرجى شراء أو تجديد عضويتك لنشر المزيد من الإعلانات",
-    "goBackButtonTitle": "عد",
+    "goBackButtonTitle": "عُد",
     "membershipButtonTitle": "عضوية",
     "notLoggedIn": "أنت لم تسجل الدخول",
-    "loginOrSignUp": "الرجاء تسجيل الدخول أو الاشتراك لإنشاء وظيفة",
-    "loginOrSignUpButtonTitle": "يسجل دخول / اشتراك",
-    "unverifiedTitle": "Unverified Account!",
-    "unverifiedAccountWithoutPhoneNumber": "Please verify your account using phone number.",
-    "unverifiedAccountWithPhoneNumber": " Please verify your phone number.",
-    "verifyBtnTitle": "Verify",
-    "addPhoneBtnTitle": "Add Phone Number"
+    "loginOrSignUp": "يرجى تسجيل الدخول أو التسجيل لإنشاء وظيفة",
+    "loginOrSignUpButtonTitle": "الدخول التسجيل فى الموقع",
+    "unverifiedTitle": "حساب لم يتم التحقق منه!",
+    "unverifiedAccountWithoutPhoneNumber": "يرجى التحقق من حسابك باستخدام رقم الهاتف.",
+    "unverifiedAccountWithPhoneNumber": "يرجى التحقق من رقم هاتفك.",
+    "verifyBtnTitle": "يؤكد"
   },
-
   "reportScreenTexts": {
     "serverResponse": {
-      "success": "Successfully submitted report",
-      "fail": "Error subbmitting report, please try again"
+      "success": "تم إرسال التقرير بنجاح",
+      "fail": "خطأ في إدخال التقرير ، يرجى المحاولة مرة أخرى"
     },
-    "questionText": "Something wrong with this ad?",
-    "directionText": "Please send us a report if you believe there is a problem with this ad?",
+    "questionText": "شيء خاطئ مع هذا الإعلان؟",
+    "directionText": "يرجى إرسال تقرير إلينا إذا كنت تعتقد أن هناك مشكلة في هذا الإعلان؟",
     "formFieldLabels": {
-      "message": "Message"
+      "message": "رسالة"
     },
     "formFieldPlaceholders": {
-      "message": "Your Message"
+      "message": "رسالتك"
     },
     "formValidation": {
-      "requiredField": "is required.",
-      "minimumLength3": "must be at least 5 characters."
+      "requiredField": "مطلوب.",
+      "minimumLength3": "يجب أن يكون 5 أحرف على الأقل."
     },
-    "sendReportButtonTitle": "Send Report"
+    "sendReportButtonTitle": "إرسال تقرير"
   },
-
   "searchScreenTexts": {
     "loadingDataMessage": "الحصول على البيانات من الخادم",
     "loadingListingMessage": "الحصول على قوائم من الخادم",
     "noListingFoundMessage": "آسف! لم يتم العثور على قائمة.",
-
     "loadingFiltersMessage": "تحميل المرشحات",
     "radiusSearchTitle": "البحث عن نصف القطر",
     "radiusSearchCenterPlaceholder": "مركز البحث",
@@ -625,389 +595,359 @@
       "priceRangeLabel": "نطاق السعر"
     },
     "rangeEnd": "إلى",
-    "rangeStart": "من عند",
+    "rangeStart": "من",
     "clearAllButtonTitle": "امسح الكل",
     "applyFiltersButtonTitle": "تطبيق المرشحات"
   },
-
   "selectCategoryScreenTexts": {
     "errorMessages": {
-      "serverError": "Server error",
-      "timeOut": "Request Timed out"
+      "serverError": "خطأ في الخادم",
+      "timeOut": "الطلب منتهي المدة"
     },
-    "showAllofCategory": "Show all of",
-    "showAll": "Show all",
-    "selectSubCategory": "Select Sub-Category",
-    "allCategory": "Categories"
+    "showAllofCategory": "عرض كل من",
+    "showAll": "عرض الكل",
+    "selectSubCategory": "حدد فئة فرعية",
+    "allCategory": "فئات"
   },
-
   "selectLocationScreenTexts": {
     "errorMessages": {
-      "serverError": "Server error",
-      "timeOut": "Request Timed out"
+      "serverError": "خطأ في الخادم",
+      "timeOut": "الطلب منتهي المدة"
     },
-    "showAllofLocation": "Show all of",
-    "showAll": "Show all",
-    "nextLevelLocation": "Select next level location"
+    "showAllofLocation": "عرض كل من",
+    "showAll": "عرض الكل",
+    "nextLevelLocation": "حدد موقع المستوى التالي"
   },
-
   "sendEmailScreenTexts": {
     "serverResponse": {
-      "success": "Successfully sent email",
-      "fail": "Error sending email, Please try again",
-      "timeOut": "Request Timed out! Please try again"
+      "success": "تم إرسال البريد الإلكتروني بنجاح",
+      "fail": "خطأ في إرسال البريد الإلكتروني ، يرجى المحاولة مرة أخرى",
+      "timeOut": "الطلب منتهي المدة! حاول مرة اخرى"
     },
     "formFieldPlaceholders": {
-      "message": "Your Message",
-      "name": "Your Name",
-      "email": "Your email",
-      "phone": "Your phone"
+      "message": "رسالتك",
+      "name": "اسمك",
+      "email": "بريدك الالكتروني",
+      "phone": "هاتفك"
     },
     "formFieldLabels": {
-      "message": "Message",
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone Number"
+      "message": "رسالة",
+      "name": "اسم",
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف"
     },
-    "sendEmailButtonTitle": "Send Email",
+    "sendEmailButtonTitle": "ارسل بريد الكتروني",
     "formValidation": {
-      "requiredField": "is required.",
-      "minimumLength3": "must be at least 3 characters.",
-      "validEmail": "Must be a valid email."
+      "requiredField": "مطلوب.",
+      "minimumLength3": "يجب ألا يقل عن 3 أحرف.",
+      "validEmail": "يجب أن يكون بريدًا إلكترونيًا صالحًا."
     }
   },
-
   "signUpScreenTexts": {
-    "title": "Sign Up",
+    "title": "اشتراك",
     "formFieldLabels": {
-      "first_name": "First Name",
-      "last_name": "Last Name",
-      "username": "Username",
-      "phone": "Phone Number",
-      "email": "Email",
-      "password": "Password"
+      "first_name": "الاسم الاول",
+      "last_name": "الكنية",
+      "username": "اسم المستخدم",
+      "phone": "رقم الهاتف",
+      "email": "عنوان البريد الالكترونى",
+      "password": "كلمة المرور"
     },
     "formValidation": {
-      "requiredField": "is required.",
-      "minimumLength3": "must be at least 3 characters.",
-      "minimumLength5": "must be at least 5 characters.",
-      "minimumLength6": "must be at least 6 characters.",
-      "validEmail": "Must be a valid email."
+      "requiredField": "مطلوب.",
+      "minimumLength3": "يجب ألا يقل عن 3 أحرف.",
+      "minimumLength5": "يجب أن يكون 5 أحرف على الأقل.",
+      "minimumLength6": "يجب ألا يقل عن 6 أحرف.",
+      "validEmail": "يجب أن يكون بريدًا إلكترونيًا صالحًا."
     },
     "formFieldPlaceholders": {
-      "first_name": "First Name",
-      "last_name": "Last Name",
-      "username": "Username",
+      "first_name": "الاسم الاول",
+      "last_name": "الكنية",
+      "username": "اسم المستخدم",
       "phone": "+123456789",
       "email": "user@email.com",
-      "password": "Password"
+      "password": "كلمة المرور"
     },
-    "signupSuccessMessage": "Signup was successful",
-    "mailVerification": "An email was sent to your mail address with a verification link. Please verify your email address before logging in.",
+    "signupSuccessMessage": "كان الاشتراك ناجحًا",
+    "mailVerification": "تم إرسال بريد إلكتروني إلى عنوان بريدك الإلكتروني مع رابط التحقق. يرجى التحقق من عنوان بريدك الإلكتروني قبل تسجيل الدخول.",
     "errorMessage": {
-      "timeoutError": "Request Timed out",
-      "serverError": "Server error"
+      "timeoutError": "الطلب منتهي المدة",
+      "serverError": "خطأ في الخادم"
     },
-    "signUpButtonTitle": "Sign Up",
-    "signInButtonTitle": "Sign In",
-    "signinMessage": "Already have an account?"
+    "signUpButtonTitle": "اشتراك",
+    "signInButtonTitle": "تسجيل الدخول",
+    "signinMessage": "هل لديك حساب؟"
   },
-
   "promoteScreenTexts": {
-    "membershipPromotions": "Membership Promotions",
-    "promotions": "Promotions",
-    "remainingads": "Remaining Ads",
-    "validDuration": "Duration",
-    "validPeriodUnit": "Days",
-    "regularPromotions": "Regular Promotions",
-    "validity": "Validity",
-    "price": "Price",
-    "confirmPromotion": "Confirm Promotion",
-    "proceedToPayment": "Proceed to Payment",
-    "success": "Promotion Successful",
-    "fail": "Promotion Failed",
-    "goBackButton": "Go Back"
+    "membershipPromotions": "ترقيات العضوية",
+    "promotions": "الترقيات",
+    "remainingads": "الإعلانات المتبقية",
+    "validDuration": "مدة",
+    "validPeriodUnit": "أيام",
+    "regularPromotions": "الترقيات المنتظمة",
+    "validity": "صلاحية",
+    "price": "سعر",
+    "confirmPromotion": "تأكيد الترويج",
+    "proceedToPayment": "الشروع في دفع",
+    "success": "تم الترويج بنجاح",
+    "fail": "فشل الترويج",
+    "goBackButton": "عُد"
   },
-
   "paymentMethodScreen": {
-    "selectedPackage": "Selected Package",
-    "promotionConfirmation": "You are promoting",
-    "promotionPlan": "Promotion Plan",
-    "packagePrice": "Package Price",
-    "promotionPrice": "Promotion Price",
-    "subTotal": "Sub Total",
-    "paymentDetail": "Payment Detail",
-    "choosePayment": "Choose Payment Method",
-    "proceedPayment": "Proceed To Payment",
-    "unknownError": "Unknown error occured. Please try again later.",
+    "selectedPackage": "الباقة المختارة",
+    "promotionConfirmation": "أنت تروج",
+    "promotionPlan": "خطة الترويج",
+    "packagePrice": "سعر الطرد",
+    "promotionPrice": "سعر الترويج",
+    "subTotal": "المجموع الفرعي",
+    "paymentDetail": "تفاصيل الدفع",
+    "choosePayment": "اختر وسيلة الدفع",
+    "proceedPayment": "الشروع في دفع",
+    "unknownError": "حدث خطأ غير معروف. الرجاء معاودة المحاولة في وقت لاحق.",
     "payment": {
-      "paymentID": "Payment #",
-      "totalAmount": "Paid Amount",
-      "discount": "Coupon Discount",
-      "originalPrice": "Original Price",
-      "date": "Date",
-      "method": "Payment Method",
-      "status": "Payment Status",
-      "transactionID": "Transaction Key",
-      "orderKey": "Order Key",
-      "instructions": "Instructions"
+      "paymentID": "دفع #",
+      "totalAmount": "المبلغ المدفوع",
+      "discount": "خصم القسيمة",
+      "originalPrice": "السعر الأصلي",
+      "date": "تاريخ",
+      "method": "طريقة الدفع او السداد",
+      "status": "حالة السداد",
+      "transactionID": "مفتاح الصفقة",
+      "orderKey": "مفتاح الطلب",
+      "instructions": "تعليمات"
     },
     "plan": {
-      "pricingOption": "Pricing Option",
-      "membershipTitle": "Membership Title",
-      "duration": "Duration",
-      "amount": "Amount",
-      "details": "Details",
-      "description": "Description"
+      "pricingOption": "خيار التسعير",
+      "membershipTitle": "عنوان العضوية",
+      "duration": "مدة",
+      "amount": "مقدار",
+      "details": "تفاصيل",
+      "description": "وصف"
     },
-    "closeButton": "Colse",
-    "paypalRedirectNotice": "Redirecting to Paypal",
-    "paymentProcessing": "Payment Processing",
-    "goToAccountButton": "Go Back to Account",
-    "invalidCardMessage": "Please enter valid card info.",
-    "paymentVerifying": "Verifying Payment.",
-    "orderSuccess": "Order was successful!",
-    "applyButton": "Apply",
-    "removeButton": "Remove",
-    "couponPlaceholder": "Enter coupon code",
-    "couponDiscount": "Coupon Discount",
-    "couponValidationFailed": "Coupon validation failed. Please try again."
+    "closeButton": "كولس",
+    "paypalRedirectNotice": "إعادة التوجيه إلى Paypal",
+    "paymentProcessing": "معالجة الدفع",
+    "goToAccountButton": "ارجع إلى الحساب",
+    "invalidCardMessage": "الرجاء إدخال معلومات بطاقة صالحة.",
+    "paymentVerifying": "التحقق من الدفع.",
+    "orderSuccess": "كان الطلب ناجحًا!",
+    "applyButton": "يتقدم",
+    "removeButton": "إزالة",
+    "couponPlaceholder": "أدخل رمز القسيمة",
+    "couponDiscount": "خصم القسيمة",
+    "couponValidationFailed": "فشل التحقق من القسيمة. حاول مرة اخرى."
   },
-
   "paymentsScreenTexts": {
-    "unknownError": "Unknown error occured! Please try again.",
-    "retryButton": "Retry",
-    "paymentMethodPrefix": "Paid via",
-    "refreshButton": "Refresh",
-    "emptyListMessage": "Sorry! You do not have any payment history."
+    "unknownError": "حدث خطأ غير معروف! حاول مرة اخرى.",
+    "retryButton": "أعد المحاولة",
+    "paymentMethodPrefix": "دفع عن طريق",
+    "refreshButton": "ينعش",
+    "emptyListMessage": "آسف! ليس لديك أي تاريخ دفع."
   },
-
   "paymentDetailScreen": {
-    "errorNotice": "Error occured while getting payment data!",
-    "originalErrorLabel": "Original Error :",
-    "features": "Features",
-    "invoiceNo": "Invoice No:"
+    "errorNotice": "حدث خطأ أثناء الحصول على بيانات الدفع!",
+    "originalErrorLabel": "الخطأ الأصلي:",
+    "features": "سمات",
+    "invoiceNo": "رقم الفاتورة:"
   },
-
   "storeDetailsTexts": {
-    "title": "Store Details",
-    "loadingText": "Getting store data",
-    "nullText": "Not Provided",
-    "alwaysOpen": "Always Open",
-    "emptyListing": "Sorry, This store has no listing yet !",
-    "storeExpired": "This store is unavailable due to membership is expired for this store owner.",
-    "goBackButtonTitle": "Go back",
-    "membership": "Member Since",
-    "membershipMomentFormate": "MMM Do YYYY",
-    "openingHourOpen": "Today Open",
-    "openingHourClose": "Today Closed",
-    "viewMoreButtonText": "View More About This Store",
-    "latestAds": "Latest Ads",
-    "cancelButtonTitle": "Cancel",
-    "viewsCount": "Views : ",
-    "noData": "Data not provided.",
-    "loginButtonTitle": "Login",
-    "loginAlert": "Please login to send mail to store",
-    "fullDayOpen": "Full Day Open",
-    "closed": "Closed today",
-    "openDayStarting": "Open Today from ",
-    "openDayClosing": " To ",
-    "messageToStoreOwner": "Message",
-    "viewMore": "View More About This Store",
-    "callPrompt": "Call this store?",
-    "verified": "Verified Seller"
+    "title": "تفاصيل المتجر",
+    "loadingText": "الحصول على بيانات المتجر",
+    "nullText": "غير مزود",
+    "alwaysOpen": "دائما مفتوح",
+    "emptyListing": "عذرا ، هذا المتجر ليس لديه قائمة حتى الآن!",
+    "storeExpired": "هذا المتجر غير متاح بسبب انتهاء صلاحية العضوية لمالك المتجر هذا.",
+    "goBackButtonTitle": "عُد",
+    "membership": "عضو منذ",
+    "membershipMomentFormate": "MMM هل YYYY",
+    "openingHourOpen": "فتح",
+    "openingHourClose": "مغلق",
+    "viewMoreButtonText": "عرض المزيد حول هذا المتجر",
+    "latestAds": "أحدث الإعلانات",
+    "cancelButtonTitle": "يلغي",
+    "viewsCount": "الآراء :",
+    "noData": "لم يتم تقديم البيانات.",
+    "loginButtonTitle": "تسجيل الدخول",
+    "loginAlert": "الرجاء تسجيل الدخول لإرسال البريد إلى المتجر",
+    "fullDayOpen": "يوم كامل مفتوح",
+    "closed": "مغلق",
+    "messageToStoreOwner": "رسالة",
+    "viewMore": "عرض المزيد حول هذا المتجر",
+    "callPrompt": "اتصل بهذا المتجر؟",
+    "verified": "بائع معتمد"
   },
-
   "storeMoreDetailTexts": {
     "sectionTitles": {
-      "openinigDateTime": "Opening Date & Time",
-      "storeAddress": "Store Address",
-      "storeDetails": "Store Details",
-      "social": "Store Social Links"
+      "openinigDateTime": "تاريخ الافتتاح والوقت",
+      "storeAddress": "عنوان المتجر",
+      "storeDetails": "تفاصيل المتجر",
+      "social": "تخزين الروابط الاجتماعية"
     },
-    "alwaysOpen": "Always Open",
-    "closed": "Closed",
-    "cancelButtonTitle": "Cancel",
-    "noData": "Data not provided.",
-    "loginButtonTitle": "Login",
-    "loginAlert": "Please login to send mail to store",
-    "fullDayOpen": "Full Day Open",
-    "messageToStoreOwner": "Message",
-    "callPrompt": "Call this store?"
+    "alwaysOpen": "دائما مفتوح",
+    "closed": "مغلق",
+    "cancelButtonTitle": "يلغي",
+    "noData": "لم يتم تقديم البيانات.",
+    "loginButtonTitle": "تسجيل الدخول",
+    "loginAlert": "الرجاء تسجيل الدخول لإرسال البريد إلى المتجر",
+    "fullDayOpen": "يوم كامل مفتوح",
+    "messageToStoreOwner": "رسالة",
+    "callPrompt": "اتصل بهذا المتجر؟"
   },
-
   "myDocScreenTexts": {
     "titles": {
-      "photoId": "Photo Id",
-      "otherDoc": "Other Document"
+      "photoId": "معرف الصورة",
+      "otherDoc": "وثيقة أخرى"
     },
     "notes": {
       "photoId": {
-        "maxSize": "Maximum file size ",
-        "types": "Allowed image types "
+        "maxSize": "حجم الملف الأقصى",
+        "types": "أنواع الصور المسموح بها"
       },
       "otherDoc": {
-        "maxSize": "Maximum file size is 5MB.",
-        "types": "Allowed file types : pdf."
+        "maxSize": "الحد الأقصى لحجم الملف هو 5 ميغا بايت.",
+        "types": "أنواع الملفات المسموح بها: pdf."
       }
     },
     "errorMsg": {
       "photoId": {
-        "maxSize": "Maximum allowed file size ",
-        "types": "Allowed image types are "
+        "maxSize": "الحجم الأقصى المسموح به للملف",
+        "types": "أنواع الصور المسموح بها هي"
       },
       "otherDoc": {
-        "maxSize": "Maximum allowable file size is 5MB.",
-        "types": "Only pdf files are allowed."
+        "maxSize": "الحد الأقصى لحجم الملف المسموح به هو 5 ميغا بايت.",
+        "types": "يسمح فقط بملفات pdf."
       }
     },
     "buttons": {
-      "upload": "Upload File",
-      "download": "Download File",
-      "change": "Change File"
+      "upload": "رفع ملف",
+      "download": "تحميل الملف",
+      "change": "تغيير الملف"
     }
   },
-
   "datePickerTexts": {
-    "selectDate": "Select Date",
-    "selectTime": "Select Time",
-    "okButtonTitle": "OK"
+    "selectDate": "حدد تاريخ",
+    "selectTime": "حدد الوقت",
+    "okButtonTitle": "نعم"
   },
-
   "dateRangePickerTexts": {
-    "selectStartDate": "Select Start Date",
-    "selectEndDate": "Select End Date",
-    "selectStartTime": "Select Start Time",
-    "selectEndTime": "Select End Time",
-    "okButtonTitle": "OK"
+    "selectStartDate": "حدد تاريخ البدء",
+    "selectEndDate": "حدد تاريخ الانتهاء",
+    "selectStartTime": "حدد وقت البدء",
+    "selectEndTime": "حدد وقت الانتهاء",
+    "okButtonTitle": "نعم"
   },
-
   "dynamicFilterListPickerTexts": {
-    "selectText": "Select an option"
+    "selectText": "حدد اختيارا"
   },
-
   "dynamicListPickerTexts": {
-    "selectText": "Select a"
+    "selectText": "حدد أ"
   },
-
   "favouritesItemTexts": {
-    "viewsText": "Views :"
+    "viewsText": "الآراء :"
   },
-
   "imageInputTexts": {
-    "cancelButtonTitle": "Cancel",
-    "ifImageLibraryPermissionDenied": "You need to enable permission to access image library",
-    "ifCameraPermissionDenied": "You need to enable permission to access your camera",
-    "deleteMessageHeader": "Delete",
-    "deletePrompt": "Do you really want to remove this image?",
-    "yesButton": "Yes",
-    "noButton": "No",
-    "addPhoto": "Add Photo",
-    "takePhoto": "Take Photo",
-    "fromGallery": "From Gallery"
+    "cancelButtonTitle": "يلغي",
+    "ifImageLibraryPermissionDenied": "تحتاج إلى تمكين إذن للوصول إلى مكتبة الصور",
+    "ifCameraPermissionDenied": "تحتاج إلى تمكين إذن للوصول إلى الكاميرا الخاصة بك",
+    "deleteMessageHeader": "حذف",
+    "deletePrompt": "هل تريد حقًا إزالة هذه الصورة؟",
+    "yesButton": "نعم",
+    "noButton": "رقم",
+    "addPhoto": "إضافة صورة",
+    "takePhoto": "تصوير",
+    "fromGallery": "من المعرض"
   },
-
   "imageInputListTexts": {
-    "addPhotosButtonTitle": "Add Photos",
-    "addPhotoButtonTitle": "Add Photo"
+    "addPhotosButtonTitle": "إضافة الصور",
+    "addPhotoButtonTitle": "إضافة صورة"
   },
-
   "listingCardTexts": {
-    "soldOutBadgeMessage": "Sold out"
+    "soldOutBadgeMessage": "نفذ"
   },
-
   "listingFormTexts": {
-    "formTitle": "Product Information",
-    "fieldRequiredErrorMessage": "This field is required",
-    "tnCToggleText": "I have read and agree to the website",
-    "tncText": " Terms and Conditions",
-    "tncTitleText": "Terms and Conditions",
-    "listingTitleLabel": "Title",
-    "videoURLLabel": "Video URL",
-    "pricingLabel": "Pricing",
-    "priceTypeLabel": "Price Type",
-    "priceLabel": "Price",
-    "maxPriceLabel": "Maximum Price",
-    "minPriceLabel": "Minimum Price",
-    "priceUnitLabel": "Price Unit",
-    "listingDescriptionLabel": "Description",
-    "contactTitle": "Contact Details",
-    "zipCodeLabel": "Zip Code",
-    "addressLabel": "Address",
-    "websiteErrorLabel": "Enter Correct Url!",
-    "geoAddressLabel": "Geo Address",
-    "phoneLabel": "Phone",
-    "whatsappLabel": "Whatsapp",
-    "whatsappNote": "Whatsapp number with your country code. Eg.+1xxxxxxxxxx",
-    "emailLabel": "Email",
-    "websiteLabel": "Website",
-    "nameLabel": "Name",
-    "imagesLabel": "Images",
-    "maxImageCount": "You can upload up to ",
-    "images": " images.",
-    "dragSortText": "Long press to drag and sort images.",
-    "uploadingNoticeText": "This may take a while depending on the speed of your internet connection...",
-    "uploadErrorNoticeText": "Error uploading! Please try again.",
-    "submitButtonTitle": "SUBMIT",
-    "successTitle": "Congratulation!",
-    "successMessage": "Your ad was posted successfully",
-    "goBackBtnTitle": "Go back",
-    "socialProfileTitle": "Social Profiles",
-    "tryAgainButtonTitle": "Try again",
-    "mapToggleTitle": "Don't show the map.",
-    "geoCoderFail": "Map Service Error!",
-    "videoURLInvalid": "URL not valid!",
-    "videoURLNote": "E.g. https://www.youtube.com/watch?v=RiXdDGk_XCU",
-    "businessHoursTitle": "Open Hours",
-    "businessHoursToggleTitle": "Activate Opening Hours",
-    "businessHoursToggleNote": "Define your weekly hours",
-    "bHOpenBtnTitle": "Open",
-    "timeSlotToggleButton": "Want to set time slots? (Default All day long)",
-    "timeSlotStartTitle": "Start",
-    "timeSlotEndTitle": "End",
-    "specialHoursToggleTitle": "Special Hours - overrides",
-    "specialHoursToggleNote": "Define your weekly opening hours to override",
-    "geoAddressPlaceholder": "Search Address",
+    "formTitle": "معلومات المنتج",
+    "fieldRequiredErrorMessage": "هذه الخانة مطلوبه",
+    "tnCToggleText": "لقد قرأت ووافقت على الموقع",
+    "tncText": "الأحكام والشروط",
+    "tncTitleText": "الأحكام والشروط",
+    "listingTitleLabel": "عنوان",
+    "videoURLLabel": "رابط الفيديو",
+    "pricingLabel": "التسعير",
+    "priceTypeLabel": "نوع السعر",
+    "priceLabel": "سعر",
+    "maxPriceLabel": "السعر الأقصى",
+    "minPriceLabel": "سعر الحد الأدنى",
+    "priceUnitLabel": "وحدة السعر",
+    "listingDescriptionLabel": "وصف",
+    "contactTitle": "بيانات المتصل",
+    "zipCodeLabel": "الرمز البريدي",
+    "addressLabel": "تبوك",
+    "websiteErrorLabel": "أدخل عنوان URL الصحيح!",
+    "geoAddressLabel": "العنوان الجغرافي",
+    "phoneLabel": "هاتف",
+    "whatsappLabel": "ال WhatsApp",
+    "whatsappNote": "رقم Whatsapp مع رمز البلد الخاص بك. على سبيل المثال: + 1xxxxxxxxxx",
+    "emailLabel": "البريد الإلكتروني",
+    "websiteLabel": "موقع الكتروني",
+    "nameLabel": "اسم",
+    "imagesLabel": "إرفاق صورة",
+    "maxImageCount": "يمكنك تحميل ما يصل إلى",
+    "images": "الصور.",
+    "dragSortText": "الصورة الأولى هي صورة العنوان. اضغط مع الاستمرار لسحب الصور وفرزها.",
+    "uploadingNoticeText": "قد يستغرق هذا بعض الوقت حسب سرعة اتصالك بالإنترنت ...",
+    "uploadErrorNoticeText": "خطأ في الرفع! حاول مرة اخرى.",
+    "submitButtonTitle": "أرسل الآن",
+    "successTitle": "تهنئة!",
+    "successMessage": "تم نشر إعلانك بنجاح",
+    "goBackBtnTitle": "عُد",
+    "socialProfileTitle": "لمحات اجتماعية",
+    "tryAgainButtonTitle": "حاول مرة أخرى",
+    "mapToggleTitle": "لا تظهر الخريطة.",
+    "geoCoderFail": "خطأ في خدمة الخريطة!",
+    "videoURLInvalid": "عنوان URL غير صالح!",
+    "videoURLNote": "على سبيل المثالhttps://www.youtube.com/watch?v=RiXdDGk_XCU",
+    "businessHoursTitle": "ساعات مفتوحة",
+    "businessHoursToggleTitle": "تفعيل ساعات العمل",
+    "businessHoursToggleNote": "حدد ساعاتك الأسبوعية",
+    "bHOpenBtnTitle": "فتح",
+    "timeSlotToggleButton": "هل تريد تحديد فترات زمنية؟ (افتراضي طوال اليوم)",
+    "timeSlotStartTitle": "بداية",
+    "timeSlotEndTitle": "نهاية",
+    "specialHoursToggleTitle": "ساعات خاصة - تجاوزات",
+    "specialHoursToggleNote": "حدد ساعات العمل الأسبوعية لتجاوزها",
+    "geoAddressPlaceholder": "عنوان البحث",
     "formValidation": {
-      "requiredField": "is required.",
-      "minimumLength5": "must be at least 5 characters.",
-      "minimumLength3": "must be at least 3 characters.",
-      "validEmail": "Must be a valid email.",
-      "geoAddressRequired": "This field is required"
+      "requiredField": "مطلوب.",
+      "minimumLength5": "يجب أن يكون 5 أحرف على الأقل.",
+      "minimumLength3": "يجب ألا يقل عن 3 أحرف.",
+      "validEmail": "يجب أن يكون بريدًا إلكترونيًا صالحًا.",
+      "geoAddressRequired": "هذه الخانة مطلوبه"
     }
   },
-
   "myAdsListItemTexts": {
-    "viewsText": "Views : ",
-    "soldOut": "Sold Out"
+    "viewsText": "الآراء :",
+    "soldOut": "نفذ"
   },
-
   "OHTimePickerTexts": {
-    "okButtonTitle": "OK"
+    "okButtonTitle": "نعم"
   },
-
   "screenTexts": {
-    "noInternetText": "Connection Error! Please check internet connection."
+    "noInternetText": "خطأ في الإتصال! يرجى التحقق من اتصال الإنترنت."
   },
-
   "sellerContactTexts": {
-    "call": "Call",
-    "email": "Email",
-    "chat": "Chat"
+    "call": "مكالمة",
+    "email": "البريد الإلكتروني",
+    "chat": "دردشة"
   },
-
   "similarAdListItemTexts": {
-    "viewsText": "Views : "
+    "viewsText": "الآراء :"
   },
-
   "membershipCardTexts": {
-    "ads": "Ads",
-    "validityUnit": "Days",
-    "regular": "Regular"
+    "ads": "إعلانات",
+    "validityUnit": "أيام",
+    "regular": "عادي"
   },
-
   "callForPrice": "اتصل للحصول على السعر",
-
   "options_user": [
     {
       "title": "القوائم الخاصة بي",
@@ -1025,7 +965,6 @@
       "title": "متجري",
       "id": "my_store"
     },
-
     {
       "title": "ملفي",
       "id": "my_profile"
@@ -1039,7 +978,6 @@
       "id": "my_documents"
     }
   ],
-
   "options_drawer": [
     {
       "title": "جميع المتاجر",
@@ -1054,318 +992,309 @@
       "id": "how_to_sell_fast"
     },
     {
-      "title": "About Us",
+      "title": "معلومات عنا",
       "id": "about"
     },
     {
-      "title": "Privacy Policy",
+      "title": "سياسة الخصوصية",
       "id": "pp"
     },
     {
-      "title": "Terms & Conditions",
+      "title": "البنود و الظروف",
       "id": "tnc"
     },
     {
-      "title": "Contact Us",
+      "title": "اتصل بنا",
       "id": "contact"
     },
     {
-      "title": "App Settings",
+      "title": "إعدادات التطبيقات",
       "id": "settings"
     }
   ],
-
   "appDescription": {
     "paras": [
       {
         "paraTitle": "",
-        "paraDetail": "Classima app is the demo Android app for Classima – Classified ads WordPress Theme. Using this app you can access to the most incredible classified marketplace in country, where you can buy, search, and sell many different products on the go. Classima doesn’t limit you in terms of the goods that you can buy or sell. It allows you to sell motorcycles, vehicles, electronics, and so much more. What’s more, if you’re interested in selling, buying, or renting a property, or posting or searching for a job within the country or overseas, you can find it all on Classima.\n\nExplore listings in categories like:",
+        "paraDetail": "تطبيق Classima هو تطبيق Android التجريبي لـ Classima - موضوع الإعلانات المبوبة WordPress Theme. باستخدام هذا التطبيق ، يمكنك الوصول إلى أكثر الأسواق المبوبة روعة في البلد ، حيث يمكنك شراء العديد من المنتجات المختلفة والبحث عنها وبيعها أثناء التنقل. لا يقيدك Classima فيما يتعلق بالسلع التي يمكنك شراؤها أو بيعها. يسمح لك ببيع الدراجات النارية والمركبات والإلكترونيات وغير ذلك الكثير. علاوة على ذلك ، إذا كنت مهتمًا ببيع أو شراء أو استئجار عقار ، أو النشر أو البحث عن وظيفة داخل البلد أو في الخارج ، فيمكنك العثور عليها جميعًا على Classima.\n\nاستكشف القوائم في فئات مثل:",
         "paraType": "para"
       },
       {
-        "paraTitle": "Electronics",
+        "paraTitle": "إلكترونيات",
         "paraDetail": [
-          "You can sell and buy new and used electronics, such as cameras, television sets, tablets, phones, laptops, video games, lighting equipment, audio gear, gaming consoles, etc.",
-          "You can compare the prices of similar products and find accessories, such as phone casings and adapters."
+          "يمكنك بيع وشراء الأجهزة الإلكترونية الجديدة والمستعملة ، مثل الكاميرات وأجهزة التلفزيون والأجهزة اللوحية والهواتف وأجهزة الكمبيوتر المحمولة وألعاب الفيديو ومعدات الإضاءة وأجهزة الصوت وأجهزة الألعاب وما إلى ذلك.",
+          "يمكنك مقارنة أسعار المنتجات المماثلة والعثور على الملحقات ، مثل أغلفة الهاتف والمحولات."
         ],
         "paraType": "bullets"
       },
       {
-        "paraTitle": "Vehicles and Motorcycles",
+        "paraTitle": "المركبات والدراجات النارية",
         "paraDetail": [
-          "You can sell and buy new and used buses, vans, scooters, motorcycles, boats, and heavy-duty vehicles.",
-          "Classima allows you to compare the prices of all vehicle brands, including Honda, Hyundai, Mitsubishi, Toyota, Mazda, Nissan, and Kia, etc",
-          "Getting to the listings you want is easy since you can filter your search by price range, mileage, model year, brand, condition, etc.",
-          "You can shop for parts and accessories for your vehicle too."
+          "يمكنك بيع وشراء الحافلات والشاحنات الصغيرة والدراجات البخارية والدراجات النارية والقوارب والمركبات الثقيلة الجديدة والمستعملة.",
+          "يتيح لك Classima مقارنة أسعار جميع ماركات السيارات ، بما في ذلك Honda و Hyundai و Mitsubishi و Toyota و Mazda و Nissan و Kia ، إلخ.",
+          "يعد الوصول إلى القوائم التي تريدها أمرًا سهلاً حيث يمكنك تصفية البحث حسب النطاق السعري ، والمسافة المقطوعة ، وسنة الطراز ، والعلامة التجارية ، والحالة ، وما إلى ذلك.",
+          "يمكنك أيضًا التسوق لشراء قطع غيار واكسسوارات لسيارتك."
         ],
         "paraType": "bullets"
       },
       {
-        "paraTitle": "Property",
+        "paraTitle": "ملكية",
         "paraDetail": [
-          "Classima allows you to sell, buy, and rent property easily.",
-          "You can search for land, commercial property, houses, flats, and apartments while filtering your search by location, price, condition, etc.",
-          "You can compare the prices of similar property listings easily."
+          "يتيح لك Classima بيع وشراء وتأجير العقارات بسهولة.",
+          "يمكنك البحث عن الأراضي والعقارات التجارية والمنازل والشقق والشقق أثناء تصفية بحثك حسب الموقع والسعر والحالة وما إلى ذلك.",
+          "يمكنك مقارنة أسعار قوائم العقارات المماثلة بسهولة."
         ],
         "paraType": "bullets"
       },
-
       {
-        "paraTitle": "With Clasima, you can:",
-        "paraDetail": "Browse thousands of local ads with Classima – an easy-to-use mobile app. You can do your search by the listing location, category, and keywords, so you can find precisely what you want. Buyers get to communicate with sellers and make deals to purchase listings easily. Buyers can save the listings they want to buy later to view later.\n\nYou can promote your ads using Bump Up and Top Ads to get them to sell faster. You can find all categories that you want right inside Classima. Posting and managing ads is easy right from your phone. Classima consumes very little data.\n\nYou can download the free app right now and have the marketplace in your palm.\n\nWelcome!",
+        "paraTitle": "مع Clasima ، يمكنك:",
+        "paraDetail": "تصفح آلاف الإعلانات المحلية مع Classima - تطبيق جوال سهل الاستخدام. يمكنك إجراء البحث عن طريق موقع القائمة والفئة والكلمات الرئيسية ، حتى تتمكن من العثور على ما تريده بالضبط. يحصل المشترون على التواصل مع البائعين وعقد الصفقات لشراء القوائم بسهولة. يمكن للمشترين حفظ القوائم التي يرغبون في شرائها لاحقًا لعرضها لاحقًا.\n\nيمكنك الترويج لإعلاناتك باستخدام Bump Up و Top Ads لحملها على البيع بشكل أسرع. يمكنك العثور على جميع الفئات التي تريدها داخل Classima مباشرة. يعد نشر الإعلانات وإدارتها أمرًا سهلاً من هاتفك مباشرةً. كلاسيما يستهلك القليل جدا من البيانات.\n\nيمكنك تنزيل التطبيق المجاني الآن والحصول على السوق في راحة يدك.\n\nأهلا وسهلا!",
         "paraType": "para"
       }
     ],
     "link": "https://preview.themeforest.net/item/classima-classified-ads-wordpress-theme/full_screen_preview/24494997",
     "linkedPara": [
-      "Are you curious about Classima? Check out the features of the ",
-      "Classima Pro plugin",
-      " Classima – Classified ads WordPress Theme."
+      "هل تشعر بالفضول حيال Classima؟ تحقق من ميزات",
+      "كلاسيما برو البرنامج المساعد",
+      "Classima - سمة وورد للإعلانات المبوبة."
     ]
   },
-
   "drawerScreenTexts": {
-    "copyrightText": "2022© All right reserved by",
+    "copyrightText": "2022 © جميع الحقوق محفوظة",
     "linkText": "RadiusTheme"
   },
-
   "frequentlyAskedQuestions": [
     {
-      "question": "How do I post an ad?",
-      "answer": "You can easily post your ad; Just tap on the the plus (+) icon & then login and submit your ad with proper data. You will get a notification after submitting your ad."
+      "question": "كيف أنشر إعلانا؟",
+      "answer": "يمكنك بسهولة نشر إعلانك. ما عليك سوى النقر على رمز علامة الجمع (+) ثم تسجيل الدخول وإرسال إعلانك بالبيانات المناسبة. سوف تحصل على إشعار بعد إرسال إعلانك."
     },
     {
-      "question": "How do I edit/delete my ads?",
-      "answer": "Simply login and go to Account => my listing & you will get a list of your ads. Each ad has delete option"
+      "question": "كيف أقوم بتعديل / حذف إعلاناتي؟",
+      "answer": "ما عليك سوى تسجيل الدخول والانتقال إلى الحساب => قائمتي وستحصل على قائمة بإعلاناتك. كل إعلان لديه خيار حذف"
     },
     {
-      "question": "How to edit my ad?",
-      "answer": "Simply login and go to Account => my listing & you will get a list of your ads. Each ad has edit option"
+      "question": "كيف أقوم بتعديل إعلاني؟",
+      "answer": "ما عليك سوى تسجيل الدخول والانتقال إلى الحساب => قائمتي وستحصل على قائمة بإعلاناتك. كل إعلان لديه خيار تعديل"
     },
     {
-      "question": "How many days my ads will remain active?",
-
-      "answer": "It depends on your settings how many days the listing will active depends on it ads will be visible "
+      "question": "كم يوما ستبقى اعلاناتي نشطة؟",
+      "answer": "يعتمد ذلك على إعداداتك ، حيث يعتمد عدد الأيام التي ستنشط فيها القائمة على ظهور الإعلانات"
     },
     {
-      "question": "How many ads can I post for free?",
-      "answer": "It depends on your settings on website seller will get no of free ads to post for certain no of days."
+      "question": "كم عدد الإعلانات التي يمكنني نشرها مجانًا؟",
+      "answer": "يعتمد ذلك على إعداداتك على موقع الويب ، حيث لن يحصل البائع على أي إعلانات مجانية للنشر لعدد معين من الأيام."
     },
     {
-      "question": "How can I edit my account information?",
-      "answer": "Login then go to my account, you will get your account information edit option"
+      "question": "كيف يمكنني تعديل معلومات حسابي؟",
+      "answer": "تسجيل الدخول ثم انتقل إلى حسابي ، وسوف تحصل على خيار تحرير معلومات الحساب الخاص بك"
     },
     {
-      "question": "How to start chat with someone?",
-      "answer": "Go to detail of an ad; you will get email, phone and chat option. Just tap the chat icon and start your conversation."
+      "question": "كيف تبدأ الدردشة مع شخص ما؟",
+      "answer": "انتقل إلى تفاصيل الإعلان ؛ سوف تحصل على خيار البريد الإلكتروني والهاتف والدردشة. فقط اضغط على أيقونة الدردشة وابدأ محادثتك."
     },
     {
-      "question": "Will I get chat notifications as a Seller?",
-      "answer": "Yes. For chat request or email, seller will get an email notification. For chat, buyer will get first initial message as email notification."
+      "question": "هل سأتلقى إشعارات الدردشة بصفتي بائعًا؟",
+      "answer": "نعم. لطلب الدردشة أو البريد الإلكتروني ، سيتلقى البائع إشعارًا بالبريد الإلكتروني. للدردشة ، سيحصل المشتري على الرسالة الأولية الأولى كإشعار بالبريد الإلكتروني."
     }
   ],
-
   "sellFastTips": [
     {
-      "id": 1,
-      "title": "Pick the right price",
-      "detail": "Price is a big factor for customer who purchase the item. So before setting the price visit similar ads and set a reasonable and competitive price."
+      "id": "1",
+      "title": "اختر السعر المناسب",
+      "detail": "السعر عامل كبير للعملاء الذين يشترون العنصر. لذلك قبل تحديد السعر قم بزيارة إعلانات مماثلة وحدد سعرًا معقولًا وتنافسيًا."
     },
     {
-      "id": 2,
-      "title": "Use great photos",
-      "detail": "Use clear & actual photos of your product/products. You can use multiple images from different view so buyer will get more clear idea about your item/items."
+      "id": "2",
+      "title": "استخدم صورًا رائعة",
+      "detail": "استخدم صورًا واضحة وفعلية لمنتجك / منتجاتك. يمكنك استخدام صور متعددة من وجهة نظر مختلفة حتى يحصل المشتري على فكرة أكثر وضوحًا عن العنصر / العناصر الخاصة بك."
     },
     {
-      "id": 3,
-      "title": "Provide clear description",
-      "detail": "Provide clear and detail description of your product. Make sure you've added right information about your items."
+      "id": "3",
+      "title": "قدم وصفًا واضحًا",
+      "detail": "قدم وصفًا واضحًا وتفصيليًا لمنتجك. تأكد من أنك قمت بإضافة المعلومات الصحيحة حول العناصر الخاصة بك."
     }
   ],
-
   "moreOptions": [
     {
       "title": "اتصل بنا",
-      "detail": "If you face any problem or did not find the answer to your question in frequently asked question swction, please feel free to contact us.",
+      "detail": "إذا واجهتك أي مشكلة أو لم تجد إجابة لسؤالك في الأسئلة المتداولة ، فلا تتردد في الاتصال بنا.",
       "id": "contact_us"
     },
     {
       "title": "عن هذا التطبيق",
-      "detail": "Classima is an online platform where you can buy and sell almost everything. The best deals are often done with people who lives nearby. It's a place where you can get everything",
+      "detail": "Classima عبارة عن منصة عبر الإنترنت حيث يمكنك شراء وبيع كل شيء تقريبًا. غالبًا ما يتم إجراء أفضل الصفقات مع الأشخاص الذين يعيشون في مكان قريب. إنه مكان حيث يمكنك الحصول على كل شيء",
       "id": "about_us"
     },
     {
       "title": "الأحكام والشروط",
-      "detail": "Please be sure to read these Terms & Conditions before using this app.",
+      "detail": "يرجى التأكد من قراءة هذه الشروط والأحكام قبل استخدام هذا التطبيق.",
       "id": "tnc"
     },
     {
-      "title": "سياسة خاصة",
-      "detail": "RadiusTheme.com – the Classima mobile application creators – prioritizes and values the security and privacy of the information you share with us through our Classima. We intend to make our users as comfortable using our app as possible. If you are to trust us with your information, you must understand how we collect, use, and maintain it.\n\nWhen you are about to acquire Classim, you'll need to register with us. The registration gives us your First and Last Name and Email Address.",
+      "title": "سياسة الخصوصية",
+      "detail": "RadiusTheme.com - مبتكرو تطبيق Classima للهواتف المحمولة - يعطي الأولوية ويقدر أمن وخصوصية المعلومات التي تشاركها معنا من خلال Classima. نعتزم أن نجعل مستخدمينا مرتاحين باستخدام تطبيقنا قدر الإمكان. إذا كنت ستثق بنا فيما يتعلق بمعلوماتك ، فيجب أن تفهم كيف نجمعها ونستخدمها ونحافظ عليها.\n\nعندما تكون على وشك الحصول على Classim ، ستحتاج إلى التسجيل معنا. التسجيل يعطينا الاسم الأول والأخير وعنوان البريد الإلكتروني.",
       "id": "pp"
     }
   ],
-
   "privacyPolicy": {
     "paras": [
       {
         "paraTitle": "",
-        "paraDetail": "RadiusTheme.com – the Classima mobile application creators – prioritizes and values the security and privacy of the information you share with us through our Classima. We intend to make our users as comfortable using our app as possible. If you are to trust us with your information, you must understand how we collect, use, and maintain it.\n\nWhen you are about to acquire Classima, you'll need to register with us. The registration gives us your First and Last Name and Email Address.",
-        "paraType": "para"
+        "paraDetail": "RadiusTheme.com - مبتكرو تطبيق Classima للهواتف المحمولة - يعطي الأولوية ويقدر أمن وخصوصية المعلومات التي تشاركها معنا من خلال Classima. نعتزم أن نجعل مستخدمينا مرتاحين باستخدام تطبيقنا قدر الإمكان. إذا كنت ستثق بنا فيما يتعلق بمعلوماتك ، فيجب أن تفهم كيف نجمعها ونستخدمها ونحافظ عليها.\n\nعندما تكون على وشك الحصول على Classima ، ستحتاج إلى التسجيل معنا. التسجيل يعطينا الاسم الأول والأخير وعنوان البريد الإلكتروني.",
+        "paraType": "الفقرة"
       },
       {
-        "paraTitle": "Information Collection and Use",
-        "paraDetail": "We may require you to provide us with certain personal information for a better experience. This information includes but is not limited to, name, address, and location data. This information will only be accessible to us and will only be used as described in this privacy policy.",
-        "paraType": "para"
+        "paraTitle": "جمع المعلومات واستخدامها",
+        "paraDetail": "قد نطلب منك تزويدنا بمعلومات شخصية معينة لتجربة أفضل. تتضمن هذه المعلومات ، على سبيل المثال لا الحصر ، بيانات الاسم والعنوان والموقع. ستكون هذه المعلومات متاحة لنا فقط ولن يتم استخدامها إلا على النحو الموضح في سياسة الخصوصية هذه.",
+        "paraType": "الفقرة"
       },
       {
-        "paraTitle": "Personal Information:",
-        "paraDetail": "When you register and provide your name, email address, account username, and password, we will not retain your address information. Instead, this information is stored in 2Checkout – our payment gateway company.\n\nWe may also need extra information for support purposes, such as the URL of your site, admin, and FTP access. We only collect this data when you need extensive and effective support. All the data we receive for support requests is saved in Freshdesk, our third-party support system.",
-        "paraType": "para"
+        "paraTitle": "معلومات شخصية:",
+        "paraDetail": "عندما تقوم بالتسجيل وتقديم اسمك وعنوان بريدك الإلكتروني واسم مستخدم الحساب وكلمة المرور ، فلن نحتفظ بمعلومات عنوانك. بدلاً من ذلك ، يتم تخزين هذه المعلومات في 2Checkout - شركة بوابة الدفع الخاصة بنا.\n\nقد نحتاج أيضًا إلى معلومات إضافية لأغراض الدعم ، مثل عنوان URL لموقعك والمسؤول والوصول إلى FTP. نحن نجمع هذه البيانات فقط عندما تحتاج إلى دعم مكثف وفعال. يتم حفظ جميع البيانات التي نتلقاها لطلبات الدعم في Freshdesk ، نظام دعم الطرف الثالث الخاص بنا.",
+        "paraType": "الفقرة"
       },
       {
-        "paraTitle": "Non-Personal Information:",
-        "paraDetail": "When you download Classima, the same payment gateway collects your IP address and geo-location information.",
-        "paraType": "para"
+        "paraTitle": "المعلومات غير الشخصية:",
+        "paraDetail": "عندما تقوم بتنزيل Classima ، تجمع بوابة الدفع نفسها عنوان IP الخاص بك ومعلومات الموقع الجغرافي.",
+        "paraType": "الفقرة"
       },
       {
-        "paraTitle": "Support System Emails:",
-        "paraDetail": "When we offer support for our Classima application, we don't store your email address even when you email us for support. We use the Freshdesk support system, which supports email communications and stores our users' usernames and email addresses. However, if necessary, we can import/ export the data.",
-        "paraType": "para"
+        "paraTitle": "رسائل البريد الإلكتروني لنظام الدعم:",
+        "paraDetail": "عندما نقدم دعمًا لتطبيق Classima الخاص بنا ، فإننا لا نخزن عنوان بريدك الإلكتروني حتى عند مراسلتنا عبر البريد الإلكتروني للحصول على الدعم. نحن نستخدم نظام دعم Freshdesk ، الذي يدعم اتصالات البريد الإلكتروني ويخزن أسماء المستخدمين وعناوين البريد الإلكتروني الخاصة بمستخدمينا. ومع ذلك ، إذا لزم الأمر ، يمكننا استيراد / تصدير البيانات.",
+        "paraType": "الفقرة"
       },
       {
-        "paraTitle": "Why Is User Information Collected?",
-        "paraDetail": "If you have a website and need to use Classima, you'll need to register with us, upon which we'll collect your personal information. This registration effectively makes you our customer and can download items from our site.",
-        "paraType": "para"
+        "paraTitle": "لماذا يتم جمع معلومات المستخدم؟",
+        "paraDetail": "إذا كان لديك موقع ويب وتحتاج إلى استخدام Classima ، فستحتاج إلى التسجيل معنا ، حيث سنقوم بجمع معلوماتك الشخصية. هذا التسجيل يجعلك عميلنا بشكل فعال ويمكنك تنزيل العناصر من موقعنا.",
+        "paraType": "الفقرة"
       },
       {
-        "paraTitle": "What Is Your Data Used For?",
-        "paraDetail": "With the data stored with our support for the Freshdesk support system, we get to identify you as our customer and send notifications and updates. The information we send could be product releases, updates, and discount offers. Guest users – who haven't registered – don't have permission to take any actions on our websites. Therefore, as a valued customer, we trust you enough to allow you to perform these actions.",
-        "paraType": "para"
+        "paraTitle": "فيم تستخدم بياناتك؟",
+        "paraDetail": "من خلال البيانات المخزنة بدعمنا لنظام دعم Freshdesk ، يمكننا التعرف عليك كعميل لدينا وإرسال الإشعارات والتحديثات. قد تكون المعلومات التي نرسلها هي إصدارات المنتج والتحديثات وعروض الخصم. المستخدمون الضيوف - الذين لم يسجلوا - ليس لديهم إذن لاتخاذ أي إجراءات على مواقعنا الإلكترونية. لذلك ، بصفتنا عميلاً ذا قيمة ، فإننا نثق بك بما يكفي للسماح لك بتنفيذ هذه الإجراءات.",
+        "paraType": "الفقرة"
       },
       {
-        "paraTitle": "For How Long is Personal Information Retained?",
-        "paraDetail": "When you register with us, your personal information and email are retained for the sake of future support. This information remains stored with us until you delete your personal information.",
-        "paraType": "para"
+        "paraTitle": "إلى متى يتم الاحتفاظ بالمعلومات الشخصية؟",
+        "paraDetail": "عندما تقوم بالتسجيل معنا ، يتم الاحتفاظ بمعلوماتك الشخصية وبريدك الإلكتروني من أجل الدعم المستقبلي. تظل هذه المعلومات مخزنة معنا حتى تقوم بحذف معلوماتك الشخصية.",
+        "paraType": "الفقرة"
       },
       {
-        "paraTitle": "What We Don't Do with Your Personal Information:",
-        "paraDetail": "We don't and will never disclose, share, or provide your private information with other companies to market their own services or products. It is also against our policy to share your personal information with unauthorized people.",
-        "paraType": "para"
+        "paraTitle": "ما لا نفعله بمعلوماتك الشخصية:",
+        "paraDetail": "نحن لا ولن نكشف أو نشارك أو نقدم معلوماتك الخاصة مع شركات أخرى لتسويق خدماتها أو منتجاتها. كما أن مشاركة معلوماتك الشخصية مع أشخاص غير مصرح لهم يعد أمرًا مخالفًا لسياستنا.",
+        "paraType": "الفقرة"
       },
       {
-        "paraTitle": "Your Rights Over Your Data:",
-        "paraDetail": "As a registered user, it is within your rights to edit your personal information. You can also request that a file of your information be exported. Upon logging into our site, you can delete your data too.",
-        "paraType": "para"
+        "paraTitle": "حقوقك على بياناتك:",
+        "paraDetail": "بصفتك مستخدمًا مسجلاً ، يحق لك تعديل معلوماتك الشخصية. يمكنك أيضًا طلب تصدير ملف بمعلوماتك. عند تسجيل الدخول إلى موقعنا ، يمكنك حذف بياناتك أيضًا.",
+        "paraType": "الفقرة"
       },
       {
-        "paraTitle": "Cookies",
-        "paraDetail": "Cookies are small files with little data that are often used for unique anonymous identification. The website you visit sends them to your browser and stores them on your device's internal memory.\n\nAlthough our app or service may not use cookies explicitly, it may utilize third-party coding that uses them to collect information and improve their services. You will know when cookies are being sent to your device and have the option to accept or refuse cookies. However, rejecting cookies may deter you from accessing some services.",
-        "paraType": "para"
+        "paraTitle": "بسكويت",
+        "paraDetail": "ملفات تعريف الارتباط هي ملفات صغيرة تحتوي على القليل من البيانات التي تُستخدم غالبًا لتحديد هوية مجهولة الهوية. يرسلها موقع الويب الذي تزوره إلى متصفحك ويخزنها على الذاكرة الداخلية لجهازك.\n\nعلى الرغم من أن تطبيقنا أو خدمتنا قد لا تستخدم ملفات تعريف الارتباط بشكل صريح ، إلا أنها قد تستخدم ترميز طرف ثالث يستخدمها لجمع المعلومات وتحسين خدماتها. ستعرف متى يتم إرسال ملفات تعريف الارتباط إلى جهازك وسيكون لديك خيار قبول أو رفض ملفات تعريف الارتباط. ومع ذلك ، قد يمنعك رفض ملفات تعريف الارتباط من الوصول إلى بعض الخدمات.",
+        "paraType": "الفقرة"
       },
       {
-        "paraTitle": "Our Security Procedures Against Data Breaches:",
-        "paraDetail": "We value the trust you've placed in us by giving us your personal information. Therefore, we employ industry-standard security means and technologies to protect your personal information from unauthorized disclosure, access, or use. Please don't disclose your registration password and username to unauthorized people to help us protect your privacy.\n\nEven though no internet transmission method or electronic storage procedure is 100% watertight, RadiusTheme and Classima leaves nothing to chance in efforts to protect your personal information.\n\nIn case your information is accessed by unauthorized people or is lost, we'll inform you as soon as we become aware of this.",
-        "paraType": "para"
+        "paraTitle": "إجراءاتنا الأمنية ضد خروقات البيانات:",
+        "paraDetail": "نحن نقدر الثقة التي وضعتها فينا من خلال تزويدنا بمعلوماتك الشخصية. لذلك ، فإننا نستخدم وسائل وتقنيات أمان متوافقة مع معايير الصناعة لحماية معلوماتك الشخصية من الكشف أو الوصول أو الاستخدام غير المصرح به. يرجى عدم الكشف عن كلمة مرور التسجيل واسم المستخدم لأشخاص غير مصرح لهم لمساعدتنا في حماية خصوصيتك.\n\nعلى الرغم من عدم وجود طريقة نقل عبر الإنترنت أو إجراء تخزين إلكتروني مانع للماء بنسبة 100٪ ، إلا أن RadiusTheme و Classima لا يتركان شيئًا للصدفة في الجهود المبذولة لحماية معلوماتك الشخصية.\n\nفي حالة وصول أشخاص غير مصرح لهم إلى معلوماتك أو فقدانها ، سنبلغك بمجرد علمنا بذلك.",
+        "paraType": "الفقرة"
       },
       {
-        "paraTitle": "How to Access Your Data or Edit Your Personal Information:",
-        "paraDetail": "When you log in on our site with your details, all your account information will be available for you to edit or delete. If you want to stop email notifications for the Classima app, just unsubscribe or send us an email, and we'll erase your email or account. Ensure that your email's subject reads 'delete my username'.",
-        "paraType": "para"
+        "paraTitle": "كيفية الوصول إلى بياناتك أو تحرير معلوماتك الشخصية:",
+        "paraDetail": "عندما تقوم بتسجيل الدخول إلى موقعنا بتفاصيلك ، ستكون جميع معلومات حسابك متاحة لك لتعديلها أو حذفها. إذا كنت تريد إيقاف إشعارات البريد الإلكتروني لتطبيق Classima ، فما عليك سوى إلغاء الاشتراك أو إرسال بريد إلكتروني إلينا ، وسنقوم بمسح بريدك الإلكتروني أو حسابك. تأكد من أن عنوان بريدك الإلكتروني هو \"احذف اسم المستخدم الخاص بي\".",
+        "paraType": "الفقرة"
       },
       {
         "paraTitle": "اتصل بنا",
-        "paraDetail": "If you have any suggestions or questions about our privacy policy, please feel free to contact us via support@radiustheme.com.",
-        "paraType": "para"
+        "paraDetail": "إذا كان لديك أي اقتراحات أو أسئلة حول سياسة الخصوصية الخاصة بنا ، فلا تتردد في الاتصال بنا عبر support@radiustheme.com.",
+        "paraType": "الفقرة"
       }
     ],
     "link": "",
     "linkedPara": []
   },
-
   "termsAndConditions": [
     {
       "paraTitle": "",
-      "paraData": "Classima is a mobile app service created and provided by radiustheme.com, subject to you agreeing with the Terms and Conditions outlined below. Please be sure to read these Terms & Conditions before using this app."
+      "paraData": "Classima هي خدمة تطبيقات جوال تم إنشاؤها وتقديمها بواسطة radiustheme.com ، بشرط موافقتك على الشروط والأحكام الموضحة أدناه. يرجى التأكد من قراءة هذه الشروط والأحكام قبل استخدام هذا التطبيق."
     },
     {
-      "paraTitle": "General",
-      "paraData": "It is the responsibility of all advertisers and other users to ensure that all content (image, video, graphics, and text content) uploaded for inclusion on the platform complies with the relevant laws. Classima and radiustheme.com assumes no responsibility for any inaccuracy or illegality of the content posted.\n\nAdvertisers and all users guarantee that their content doesn't violate any copyright, intellectual property rights, or any other rights of any entity or person. The user or advertiser agrees to release Classima and radiustheme.com from all obligations, claims, and liabilities arising from or connected with the use or inability to use the service.\n\nAdvertisers agree to their content being presented through the partner sites of Classima and radiustheme.com, under the same terms and conditions as on Classima and radiustheme.com."
+      "paraTitle": "عام",
+      "paraData": "تقع على عاتق جميع المعلنين والمستخدمين الآخرين مسؤولية التأكد من أن جميع المحتويات (الصور والفيديو والرسومات والمحتوى النصي) التي تم تحميلها لتضمينها على النظام الأساسي تتوافق مع القوانين ذات الصلة. لا يتحمل Classima و radiustheme.com أي مسؤولية عن أي عدم دقة أو عدم شرعية المحتوى المنشور.\n\nيضمن المعلنون وجميع المستخدمين أن المحتوى الخاص بهم لا ينتهك أي حقوق نشر أو حقوق ملكية فكرية أو أي حقوق أخرى لأي كيان أو شخص. يوافق المستخدم أو المعلن على إعفاء Classima و radiustheme.com من جميع الالتزامات والمطالبات والمسؤوليات الناشئة عن أو المرتبطة باستخدام أو عدم القدرة على استخدام الخدمة.\n\nيوافق المعلنون على تقديم المحتوى الخاص بهم من خلال المواقع الشريكة لـ Classima و radiustheme.com ، بموجب نفس الشروط والأحكام المطبقة على Classima و radiustheme.com."
     },
     {
-      "paraTitle": "Copyright",
-      "paraData": "Advertisers effectively grant Classima and radiustheme.com a perpetual, irrevocable, royalty-free, non-exclusive license and right to use, modify, reproduce, publish, adapt, translate, create derivative works from and distribute or incorporate such content into any form, technology, or medium now known or later developed.\n\nThe material (including the content, software, or services) on Classima are the property of radiustheme.com, its affiliates, subsidiaries, and/or third-party licensors. All intellectual property rights, such as copyright, service marks, trademarks, trade names, and other distinguishing brands on Classima, are the property of RadiusTheme.\n\nNo material found on Classima or radiustheme.com may be copied, republished, reproduced, installed, transmitted, posted, stored, or distributed without written explicit permission from RadiusTheme."
+      "paraTitle": "حقوق النشر",
+      "paraData": "يمنح المعلنون Classima و radiustheme.com بشكل فعال ترخيصًا دائمًا وغير قابل للإلغاء وخالي من حقوق الملكية وغير حصري وحق استخدام وتعديل وإعادة إنتاج ونشر وتكييف وترجمة وإنشاء أعمال مشتقة من هذا المحتوى وتوزيعه أو دمجه في أي شكل ، التكنولوجيا ، أو الوسيلة المعروفة الآن أو التي تم تطويرها لاحقًا.\n\nالمواد (بما في ذلك المحتوى أو البرامج أو الخدمات) الموجودة على Classima هي ملك لشركة radiustheme.com والشركات التابعة لها والشركات التابعة لها و / أو الجهات الخارجية المرخصة. جميع حقوق الملكية الفكرية ، مثل حقوق النشر وعلامات الخدمة والعلامات التجارية والأسماء التجارية وغيرها من العلامات التجارية المميزة في Classima ، هي ملك لشركة RadiusTheme.\n\nلا يجوز نسخ أي مادة موجودة على Classima أو radiustheme.com أو إعادة نشرها أو إعادة إنتاجها أو تثبيتها أو نقلها أو نشرها أو تخزينها أو توزيعها دون إذن كتابي صريح من RadiusTheme."
     },
     {
-      "paraTitle": "Watermarks",
-      "paraData": "All images on Classima are watermark to prevent them from being reused for other purposes without the advertiser's permission."
+      "paraTitle": "العلامات المائية",
+      "paraData": "جميع الصور الموجودة على Classima هي علامة مائية لمنع إعادة استخدامها لأغراض أخرى دون إذن المعلن."
     },
     {
-      "paraTitle": "Safety and Images",
-      "paraData": "Classima and radiustheme.com reserve the right to alter the title of any content on the app for editorial purposes. Classima and radiustheme.com reserve the right to refuse to publish inappropriate images or those that violate RadiusTheme's rules."
+      "paraTitle": "السلامة والصور",
+      "paraData": "يحتفظ Classima و radiustheme.com بالحق في تغيير عنوان أي محتوى على التطبيق لأغراض التحرير. يحتفظ Classima و radiustheme.com بالحق في رفض نشر صور غير لائقة أو تلك التي تنتهك قواعد RadiusTheme."
     },
     {
-      "paraTitle": "Personal",
-      "paraData": "Classima and RadiusTheme reserve the right to cooperate with the authorities in case any content on the app violates the law. The identity of users, buyers, or advertisers may be determined, for example, by an ISP. IP addresses may also be registered to ensure that all users, buyers, and advertisers comply with the terms and conditions."
+      "paraTitle": "شخصي",
+      "paraData": "يحتفظ Classima و RadiusTheme بالحق في التعاون مع السلطات في حالة انتهاك أي محتوى على التطبيق للقانون. قد يتم تحديد هوية المستخدمين أو المشترين أو المعلنين ، على سبيل المثال ، بواسطة مزود خدمة الإنترنت. يمكن أيضًا تسجيل عناوين IP لضمان التزام جميع المستخدمين والمشترين والمعلنين بالشروط والأحكام."
     },
     {
-      "paraTitle": "Privacy",
-      "paraData": "Classima and RadiusTheme will collect information from users, buyers, and advertisers. As a condition of use of Classima, each user and advertiser consents to and authorizes Classima and radiustheme.com to collect and use this information. Classima and radiustheme.com also reserves the right to disclose the information to Company Affiliates and any other person for the purposes of supporting, administering, and maintaining Classima, as well as for improving Classima, for instance by using the information for marketing, research, planning, and product development."
+      "paraTitle": "خصوصية",
+      "paraData": "ستجمع Classima و RadiusTheme المعلومات من المستخدمين والمشترين والمعلنين. كشرط لاستخدام Classima ، يوافق كل مستخدم ومعلن على Classima و radiustheme.com ويفوضهما بجمع هذه المعلومات واستخدامها. يحتفظ Classima و radiustheme.com أيضًا بالحق في الكشف عن المعلومات إلى الشركات التابعة للشركة وأي شخص آخر لأغراض دعم Classima وإدارتها وصيانتها ، وكذلك لتحسين Classima ، على سبيل المثال باستخدام المعلومات للتسويق والبحث ، التخطيط وتطوير المنتجات."
     },
     {
-      "paraTitle": "Cookies",
-      "paraData": "This app may use cookies, which means that your device should be cookie-enabled. A cookie file contains information, such as a random user ID that the site automatically assigns to a visitor to track the pages they visit. Cookies can't read data off your hard disk or other cookie files from other sites. Cookies can't, by themselves, be used to figure out the identity of the user."
+      "paraTitle": "بسكويت",
+      "paraData": "قد يستخدم هذا التطبيق ملفات تعريف الارتباط ، مما يعني أنه يجب تمكين ملفات تعريف الارتباط بجهازك. يحتوي ملف تعريف الارتباط على معلومات ، مثل معرف المستخدم العشوائي الذي يعينه الموقع تلقائيًا للزائر لتتبع الصفحات التي يزورها. لا يمكن لملفات تعريف الارتباط قراءة البيانات الموجودة على القرص الثابت أو ملفات تعريف الارتباط الأخرى من مواقع أخرى. لا يمكن استخدام ملفات تعريف الارتباط في حد ذاتها لمعرفة هوية المستخدم."
     },
     {
-      "paraTitle": "Email Address of Users",
-      "paraData": "Users are needed to submit valid email addresses before they're allowed to post advertisement listings. The email addresses shall not be displayed publicly. However, users are allowed to send emails to other users through Classima."
+      "paraTitle": "عنوان البريد الإلكتروني للمستخدمين",
+      "paraData": "يحتاج المستخدمون إلى إرسال عناوين بريد إلكتروني صالحة قبل أن يُسمح لهم بنشر قوائم الإعلانات. لن يتم عرض عناوين البريد الإلكتروني علنًا. ومع ذلك ، يُسمح للمستخدمين بإرسال رسائل بريد إلكتروني إلى مستخدمين آخرين من خلال Classima."
     },
     {
-      "paraTitle": "Site Availability",
-      "paraData": "Classima and radiustheme.com doesn't guarantee uninterrupted or secure access to the app. The app is provided on an 'as is' and as and when available basis."
+      "paraTitle": "توافر الموقع",
+      "paraData": "لا يضمن Classima و radiustheme.com الوصول غير المنقطع أو الآمن إلى التطبيق. يتم توفير التطبيق \"كما هو\" وعندما يكون متاحًا."
     },
     {
-      "paraTitle": "Links to Third-Party Websites",
-      "paraData": "Classima may contain references and links to other sites (Third-Party Websites). However, Classima or radiustheme.com shall not be responsible for the contents in these third-party websites. Third-party websites are not monitored or investigated by Classima or radiustheme.com. Once a user decides to leave Classima and access a third-party website, they do so at their own risk."
+      "paraTitle": "روابط لمواقع الطرف الثالث",
+      "paraData": "قد يحتوي Classima على مراجع وروابط لمواقع أخرى (مواقع الطرف الثالث). ومع ذلك ، لن يكون Classima أو radiustheme.com مسؤولاً عن محتويات مواقع الأطراف الثالثة هذه. لا تتم مراقبة مواقع الأطراف الثالثة أو التحقيق فيها بواسطة Classima أو radiustheme.com. بمجرد أن يقرر المستخدم مغادرة Classima والوصول إلى موقع ويب تابع لجهة خارجية ، فإنهم يفعلون ذلك على مسؤوليتهم الخاصة."
     },
     {
-      "paraTitle": "Paid Content and Service",
-      "paraData": "Some of the services and content of Classima may require payment, including but not limited to; membership packages and posting of ads in some specific categories.\n\nUsers may buy ad promotions using vouchers sold or issued by Classima. Vouchers aren't redeemable for cash.\n\nAdvertisers and other users may be required to transmit the information of their paid content via a third-party provider, which is governed by their own terms and conditions. Those users and advertisers accept such links at their own risk and Classima disclaims all liability related thereto. Classima shall, under no circumstances, be obliged to refund any payments made concerning paid content."
+      "paraTitle": "المحتوى والخدمة المدفوعة",
+      "paraData": "قد تتطلب بعض خدمات ومحتوى Classima الدفع ، بما في ذلك على سبيل المثال لا الحصر ؛ حزم العضوية ونشر الإعلانات في بعض الفئات المحددة.\n\nيمكن للمستخدمين شراء الإعلانات الترويجية باستخدام القسائم المباعة أو الصادرة عن Classima. القسائم غير قابلة للاسترداد نقدًا.\n\nقد يُطلب من المعلنين والمستخدمين الآخرين نقل معلومات المحتوى المدفوع الخاص بهم عبر مزود تابع لجهة خارجية ، والذي يخضع لشروطهم وأحكامهم الخاصة. يقبل هؤلاء المستخدمون والمعلنون مثل هذه الروابط على مسؤوليتهم الخاصة وتتنصل Classima من كافة المسؤوليات المتعلقة بذلك. لا تلتزم Classima ، تحت أي ظرف من الظروف ، برد أي مدفوعات تتعلق بالمحتوى المدفوع."
     },
     {
-      "paraTitle": "Memberships",
-      "paraData": "Classima will create a shop on the user's behalf. The shop created will be devoid of content, pending the addition of the same by the user. Classima has the right to any content added to the shop by the user and has the right to remove or decline to publish content that it deems inappropriate or violates any aspects of the terms and conditions.\n\nClassima reserves the right to change or modify membership packages, including their price and contents.\n\nClassima isn't obligated to refund services or money if a membership package is canceled early, for any reason whatsoever."
+      "paraTitle": "العضويات",
+      "paraData": "سيقوم Classima بإنشاء متجر نيابة عن المستخدم. سيكون المتجر الذي تم إنشاؤه خاليًا من المحتوى ، في انتظار إضافة المستخدم له. Classima له الحق في أي محتوى يضاف إلى المتجر من قبل المستخدم وله الحق في إزالة أو رفض نشر المحتوى الذي يعتبره غير مناسب أو ينتهك أي جوانب من الشروط والأحكام.\n\nتحتفظ Classima بالحق في تغيير أو تعديل حزم العضوية ، بما في ذلك السعر والمحتويات.\n\nكلاسيما غير ملزم برد الخدمات أو الأموال إذا تم إلغاء حزمة العضوية مبكرًا ، لأي سبب من الأسباب."
     },
     {
-      "paraTitle": "Disclaimer",
-      "paraData": "Classima and radisutheme.com assume no responsibility whatsoever for the use of Classima and disclaims all responsibility for any claim, injury, damage, or liability of any kind resulting from, or arising out of, or any way related to (a) any errors on Classima or the Content, including but not limited to typographical errors and technical errors, (b) any third party websites or content directly or indirectly accessed or retrieved through links in Classima, (c) the unavailability of Classima, (d) your use of Classima or the Content, or (e) your use of any equipment (or software) in connection with Classima."
+      "paraTitle": "تنصل",
+      "paraData": "لا يتحمل Classima و radisutheme.com أي مسؤولية من أي نوع عن استخدام Classima ويتنصل من أي مسؤولية عن أي مطالبة أو إصابة أو ضرر أو مسؤولية من أي نوع ناتجة أو ناشئة عن أو بأي طريقة تتعلق بـ (أ) أي أخطاء في Classima أو المحتوى ، بما في ذلك على سبيل المثال لا الحصر الأخطاء المطبعية والأخطاء الفنية ، (ب) أي مواقع ويب أو محتوى خاص بطرف ثالث يتم الوصول إليه أو استرداده بشكل مباشر أو غير مباشر من خلال الروابط في Classima ، (ج) عدم توفر Classima ، (د) استخدامك لـ Classima أو المحتوى ، أو (هـ) استخدامك لأي معدات (أو برامج) فيما يتعلق بـ Classima."
     },
     {
-      "paraTitle": "Indemnification",
-      "paraData": "Advertisers and other users agree to indemnify Classima and RadiusTheme as well as its employees, agents, officers, directors, from and against all expenses, losses, damages, and costs, including attorney's fees, arising from any violation of these Terms and Conditions (including negligent or wrongful conduct)."
+      "paraTitle": "التعويض",
+      "paraData": "يوافق المعلنون والمستخدمون الآخرون على تعويض Classima و RadiusTheme وكذلك موظفيها ووكلائها ومسؤوليها ومديريها من وضد جميع النفقات والخسائر والأضرار والتكاليف ، بما في ذلك أتعاب المحاماة ، الناشئة عن أي انتهاك لهذه الشروط والأحكام (بما في ذلك إهمال أو سلوك غير مشروع)."
     },
     {
-      "paraTitle": "Modifications",
-      "paraData": "Classima and RadiusTheme reserve the right to alter or modify these Terms and Conditions. Such alteration or modifications shall be effective immediately upon posting on Classima. You are responsible for regularly reviewing for such modifications. Your continued access or use of Classima shall be deemed to be your acceptance of the modified terms and conditions."
+      "paraTitle": "التعديلات",
+      "paraData": "يحتفظ Classima و RadiusTheme بالحق في تغيير أو تعديل هذه الشروط والأحكام. يجب أن يكون مثل هذا التغيير أو التعديلات ساري المفعول فور نشرها على Classima. أنت مسؤول عن المراجعة الدورية لمثل هذه التعديلات. يعتبر استمرار وصولك إلى Classima أو استخدامه بمثابة موافقتك على الشروط والأحكام المعدلة."
     },
     {
-      "paraTitle": "Governing Law",
-      "paraData": "Classima is operated under the laws and regulations of respective country."
+      "paraTitle": "القانون الذي يحكم",
+      "paraData": "يتم تشغيل Classima وفقًا لقوانين وأنظمة الدولة المعنية."
     }
   ],
   "relativeTime": {
-    "future": "in %s",
-    "past": "%s ago",
-    "s": "a few seconds",
-    "m": "one minute",
-    "mm": "%d minutes",
-    "h": "one hour",
-    "hh": "%d hours",
-    "d": "one day",
-    "dd": "%d days",
-    "M": "one month",
-    "MM": "%d months",
-    "y": "one year",
-    "yy": "%d years"
+    "future": "في٪ s",
+    "past": "قبل٪ s",
+    "s": "بضع ثوان",
+    "m": "دقيقة واحدة",
+    "mm": "٪ d دقيقة",
+    "h": "ساعة واحدة",
+    "hh": "٪ d ساعة",
+    "d": "يوم واحد",
+    "dd": "٪ d يوم",
+    "M": "شهر واحد",
+    "MM": "٪ d شهر",
+    "y": "سنة واحدة",
+    "yy": "٪ d سنوات"
   }
 }
