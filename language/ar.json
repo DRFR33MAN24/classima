@@ -42,9 +42,9 @@
   "weekDayNames": {
     "0": "الأحد",
     "1": "الاثنين",
-    "2": "يوم الثلاثاء",
+    "2": " الثلاثاء",
     "3": "الأربعاء",
-    "4": "يوم الخميس",
+    "4": " الخميس",
     "5": "جمعة",
     "6": "السبت"
   },
@@ -54,8 +54,8 @@
     "simulatorAlert": "يجب استخدام الجهاز المادي لإشعارات الدفع"
   },
   "tabTitles": {
-    "home": "مسكن",
-    "search": "يبحث",
+    "home": "الرئيسية",
+    "search": "بحث",
     "newListing": "إعلان آخر",
     "chatList": "الدردشات",
     "account": "الحساب"
@@ -71,8 +71,8 @@
     "okBtnTitle": "موافق",
     "deleteAccountMessageTitle": "تحذير!",
     "deleteAccountMessage": "هل انت متأكد انك تريد حذف حسابك؟ لا يمكن التراجع عن هذا الإجراء.",
-    "cancelBtnTitle": "يلغي",
-    "confirmBtnTitle": "توافق إجراء الحذف"
+    "cancelBtnTitle": "الغاء",
+    "confirmBtnTitle": "تأكيد إجراء الحذف"
   },
   "settingsScreenTexts": {
     "screenTitle": "إعدادات",
@@ -109,7 +109,7 @@
     "noChatTitleMessage": "حاليا ليس لديك أي محادثات",
     "noChatMessage": "ابدأ البيع والشراء!",
     "deletePromptMessage": "هل تريد حقًا حذف هذه المحادثة؟",
-    "cancelButtonTitle": "يلغي",
+    "cancelButtonTitle": "الغاء",
     "deleteButtonTitle": "حذف",
     "noUserMessage": "حاليا أنت لم تسجل الدخول\nيرجى تسجيل الدخول أو التسجيل للحصول على بيانات الدردشة الخاصة بك",
     "loadingMessage": "الحصول على قائمة المحادثات من الخادم",
@@ -171,7 +171,7 @@
       "videoUrl": "رابط الفيديو",
       "contact": "بيانات المتصل",
       "zipCode": "الرمز البريدي",
-      "address": "تبوك",
+      "address": "العنوان",
       "phone": "هاتف",
       "whatsapp": "ال WhatsApp",
       "email": "البريد الإلكتروني",
@@ -219,7 +219,7 @@
     "passwordNotSameMessage": "كلمة المرور غير متطابقة",
     "successText": "تم التحديث بنجاح",
     "errorText": "خطأ! حاول مرة اخرى",
-    "cancelButtonTitle": "يلغي",
+    "cancelButtonTitle": "الغاء",
     "addPhotoTitle": "إضافة صورة",
     "takePhotoButtonTitle": "تصوير",
     "fromGalleryButtonTitle": "من المعرض",
@@ -233,7 +233,7 @@
       "whatsapp": "رقم الواتس اب",
       "website": "موقع الكتروني",
       "zipcode": "الرمز البريدي",
-      "address": "تبوك",
+      "address": "العنوان",
       "locations": "المواقع",
       "password": "كلمة المرور"
     },
@@ -250,7 +250,7 @@
   },
   "favoritesScreenTexts": {
     "removePromptMessage": "هل تريد إزالة هذا الإعلان من المفضلة لديك؟",
-    "cancelButtonTitle": "يلغي",
+    "cancelButtonTitle": "الغاء",
     "removeButtonTitle": "إزالة",
     "noFavoriteMessage": "ليس لديك أي إعلانات في المفضلة حتى الآن.",
     "exploreTitle": "مشاهدة جميع الإعلانات",
@@ -271,13 +271,13 @@
     "topCategoriesText": "فئات",
     "requestTimedOut": "الطلب منتهي المدة!",
     "exitAppWarning": "هل أنت متأكد أنك تريد الخروج من التطبيق؟",
-    "cancelButtonTitle": "يلغي",
+    "cancelButtonTitle": "الغاء",
     "yesButtonTitle": "نعم"
   },
   "listingDetailScreenTexts": {
     "loadingText": "الحصول على بيانات القائمة",
     "soldOutMessage": "نفذ",
-    "cancelButtonTitle": "يلغي",
+    "cancelButtonTitle": "الغاء",
     "loginButtonTitle": "تسجيل الدخول",
     "pageTitle": "تفاصيل",
     "showLess": "عرض أقل",
@@ -313,7 +313,7 @@
     "businessHoursTitle": "ساعات مفتوحة",
     "bHTexts": {
       "openTitle": "فتح",
-      "closeTitle": "قريب",
+      "closeTitle": "اغلاق",
       "openText": "مفتوحة 24 ساعة)",
       "openTodayText": "مفتوح اليوم (24 ساعة)",
       "closeText": "مغلق",
@@ -342,7 +342,7 @@
       "required": "مطلوب",
       "invalid": "غير صالح"
     },
-    "submitBtn": "يُقدِّم",
+    "submitBtn": "تأكيد",
     "reviewNotice": "تم تقديم رأيك بنجاح. بمجرد الموافقة عليه ، سيتم عرضه مع المراجعات الأخرى.",
     "reviewApproved": "كانت المراجعة ناجحة.",
     "postTimePrefix": "نشر على",
@@ -358,8 +358,8 @@
       "password": "كلمة المرور"
     },
     "forgotPassword": "هل نسيت كلمة السر؟",
-    "cancelButtonTitle": "يلغي",
-    "signUpButtonTitle": "إصنع حساب",
+    "cancelButtonTitle": "الغاء",
+    "signUpButtonTitle": "افتح حساب",
     "loginButtonTitle": "تسجيل الدخول",
     "loginSuccessMessage": "تم تسجيل الدخول بنجاح",
     "formFieldsLabel": {
@@ -376,7 +376,7 @@
       "facebook": "فيسبوك",
       "google": "جوجل"
     },
-    "pleaseWaitText": "أرجو الإنتظار!",
+    "pleaseWaitText": "الرجاء الإنتظار!",
     "socialLoginText": "أو تسجيل الدخول باستخدام"
   },
   "membershipsScreenTexts": {
@@ -387,7 +387,7 @@
     "oTPInputTitle": "أدخل OTP",
     "phoneInputPlaceHolder": "رقم الهاتف",
     "getOTPButtonTitle": "أرسل OTP",
-    "verifyBtnTitle": "يؤكد",
+    "verifyBtnTitle": "اكد",
     "retryBtnTitle": "إعادة إرسال Otp",
     "successTitle": "تم التحقق بنجاح",
     "errorTitle": "فشل التحقق",
@@ -397,31 +397,31 @@
     "signUpBtnTitle": "أكمل التسجيل"
   },
   "myListingsScreenTexts": {
-    "loggedOut": "لم يتم دخولك.",
+    "loggedOut": "لم يتم تسجيل الدخول.",
     "deletePromptMessage": "هل تريد أن تحذف",
     "editPromptMessage": "هل تريد التعديل",
     "promotePromptMessage": "هل تريد الترويج",
     "soldPromptMessage": "هل تريد وضع علامة",
     "asUnsold": "غير مباعة",
     "asSold": "كما بيعت",
-    "cancelButtonTitle": "يلغي",
+    "cancelButtonTitle": "الغي",
     "okayButtonTitle": "موافق",
     "deleteButtonTitle": "حذف",
-    "editButtonTitle": "يحرر",
-    "promoteButtonTitle": "يرقي",
+    "editButtonTitle": "حرر",
+    "promoteButtonTitle": "قم بالترقية",
     "noAdTitle": "حاليا ليس لديك أي إعلان!",
     "postAdButtonTitle": "إنشاء إعلان جديد!",
     "loadingMessage": "الحصول على إعلان المستخدم",
     "listingDeleteSuccessText": "تم الحذف بنجاح",
     "listingDeleteErrorText": "خطأ! حاول مرة اخرى",
     "actionMenuButtons": {
-      "edit": "يحرر",
+      "edit": "حرر",
       "delete": "حذف",
-      "promote": "يرقي",
+      "promote": "قم بالترقية",
       "sold": "وضع علامة على أنه مباع",
       "unsold": "وضع علامة غير مباعة"
     },
-    "promoteLink": "https://radiustheme.com/",
+    "promoteLink": "https://sabilstore.com/",
     "customServerErrorMessage": "بيانات الحصول على خطأ من الخادم.",
     "noInternet": "لا انترنت"
   },
@@ -480,11 +480,11 @@
     "storeWebsite": "موقع المتجر",
     "storeAddress": "عنوان المتجر",
     "storeDescription": "وصف المتجر",
-    "storeSocial": "تخزين الروابط الاجتماعية",
+    "storeSocial": " الروابط الاجتماعية",
     "facebook": "URL الفيسبوك",
     "youtube": "يوتيوب URL",
     "twitter": "Twitter URL",
-    "linkedin": "ينكدين URL",
+    "linkedin": "لينكدن URL",
     "updateStoreButtonTitle": "تحديث المتجر",
     "imagePickerTitle": "إضافة صورة",
     "imagePickerCameraText": "تصوير",
@@ -495,16 +495,16 @@
       "slogan": "شعار المتجر",
       "email": "البريد الإلكتروني",
       "phone": "هاتف",
-      "address": "تبوك",
+      "address": "العنوان",
       "website": "موقع الكتروني",
       "description": "وصف",
       "facebook": "فيسبوك",
       "youtube": "موقع يوتيوب",
       "twitter": "تويتر",
-      "linkedin": "ينكدين"
+      "linkedin": "لينكدن"
     },
     "placeHolders": {
-      "slug": "تخزين سبيكة",
+      "slug": "الاسم المختصر",
       "title": "اسم المتجر",
       "slogan": "شعار المتجر",
       "email": "yourstore@store.com",
@@ -533,7 +533,7 @@
     "userHasNoStore": "المستخدم ليس لديه متجر.",
     "storeCreateMessage": "هل تريد إنشاء متجرك؟",
     "createStoreButtonTitle": "إنشاء متجر",
-    "cancelButtonTitle": "يلغي",
+    "cancelButtonTitle": "الغاء",
     "cameraRollPermissionAlert": "تحتاج إلى تمكين إذن لفة الكاميرا لاستخدام هذه الميزة",
     "cameraPermissionAlert": "تحتاج إلى تمكين إذن للوصول إلى الكاميرا الخاصة بك",
     "recommendedSize": "الحجم الموصى به (",
@@ -548,7 +548,7 @@
     "eligibilityChecking": "التحقق من أهلية المؤلف",
     "noRemainingAds": "آسف! ليس لديك أي إعلانات متبقية",
     "purchaseMembership": "يرجى شراء أو تجديد عضويتك لنشر المزيد من الإعلانات",
-    "goBackButtonTitle": "عُد",
+    "goBackButtonTitle": "رجوع",
     "membershipButtonTitle": "عضوية",
     "notLoggedIn": "أنت لم تسجل الدخول",
     "loginOrSignUp": "يرجى تسجيل الدخول أو التسجيل لإنشاء وظيفة",
@@ -556,7 +556,7 @@
     "unverifiedTitle": "حساب لم يتم التحقق منه!",
     "unverifiedAccountWithoutPhoneNumber": "يرجى التحقق من حسابك باستخدام رقم الهاتف.",
     "unverifiedAccountWithPhoneNumber": "يرجى التحقق من رقم هاتفك.",
-    "verifyBtnTitle": "يؤكد"
+    "verifyBtnTitle": "تأكيد"
   },
   "reportScreenTexts": {
     "serverResponse": {
@@ -582,7 +582,7 @@
     "loadingListingMessage": "الحصول على قوائم من الخادم",
     "noListingFoundMessage": "آسف! لم يتم العثور على قائمة.",
     "loadingFiltersMessage": "تحميل المرشحات",
-    "radiusSearchTitle": "البحث عن نصف القطر",
+    "radiusSearchTitle": "البحث حولك",
     "radiusSearchCenterPlaceholder": "مركز البحث",
     "locationPermissionAlert": "تحتاج إلى تمكين إذن الموقع لاستخدام هذه الميزة",
     "location": "موقع",
@@ -691,7 +691,7 @@
     "proceedToPayment": "الشروع في دفع",
     "success": "تم الترويج بنجاح",
     "fail": "فشل الترويج",
-    "goBackButton": "عُد"
+    "goBackButton": "رجوع"
   },
   "paymentMethodScreen": {
     "selectedPackage": "الباقة المختارة",
@@ -724,14 +724,14 @@
       "details": "تفاصيل",
       "description": "وصف"
     },
-    "closeButton": "كولس",
+    "closeButton": "اغلاق",
     "paypalRedirectNotice": "إعادة التوجيه إلى Paypal",
     "paymentProcessing": "معالجة الدفع",
     "goToAccountButton": "ارجع إلى الحساب",
     "invalidCardMessage": "الرجاء إدخال معلومات بطاقة صالحة.",
     "paymentVerifying": "التحقق من الدفع.",
     "orderSuccess": "كان الطلب ناجحًا!",
-    "applyButton": "يتقدم",
+    "applyButton": "تأكيد",
     "removeButton": "إزالة",
     "couponPlaceholder": "أدخل رمز القسيمة",
     "couponDiscount": "خصم القسيمة",
@@ -741,30 +741,30 @@
     "unknownError": "حدث خطأ غير معروف! حاول مرة اخرى.",
     "retryButton": "أعد المحاولة",
     "paymentMethodPrefix": "دفع عن طريق",
-    "refreshButton": "ينعش",
+    "refreshButton": "تحديث",
     "emptyListMessage": "آسف! ليس لديك أي تاريخ دفع."
   },
   "paymentDetailScreen": {
     "errorNotice": "حدث خطأ أثناء الحصول على بيانات الدفع!",
     "originalErrorLabel": "الخطأ الأصلي:",
-    "features": "سمات",
+    "features": "ميزات",
     "invoiceNo": "رقم الفاتورة:"
   },
   "storeDetailsTexts": {
     "title": "تفاصيل المتجر",
     "loadingText": "الحصول على بيانات المتجر",
-    "nullText": "غير مزود",
+    "nullText": "غير مدخل",
     "alwaysOpen": "دائما مفتوح",
     "emptyListing": "عذرا ، هذا المتجر ليس لديه قائمة حتى الآن!",
     "storeExpired": "هذا المتجر غير متاح بسبب انتهاء صلاحية العضوية لمالك المتجر هذا.",
-    "goBackButtonTitle": "عُد",
+    "goBackButtonTitle": "رجوع",
     "membership": "عضو منذ",
     "membershipMomentFormate": "MMM هل YYYY",
     "openingHourOpen": "فتح",
     "openingHourClose": "مغلق",
     "viewMoreButtonText": "عرض المزيد حول هذا المتجر",
     "latestAds": "أحدث الإعلانات",
-    "cancelButtonTitle": "يلغي",
+    "cancelButtonTitle": "الغاء",
     "viewsCount": "الآراء :",
     "noData": "لم يتم تقديم البيانات.",
     "loginButtonTitle": "تسجيل الدخول",
@@ -785,7 +785,7 @@
     },
     "alwaysOpen": "دائما مفتوح",
     "closed": "مغلق",
-    "cancelButtonTitle": "يلغي",
+    "cancelButtonTitle": "الغاء",
     "noData": "لم يتم تقديم البيانات.",
     "loginButtonTitle": "تسجيل الدخول",
     "loginAlert": "الرجاء تسجيل الدخول لإرسال البريد إلى المتجر",
@@ -846,7 +846,7 @@
     "viewsText": "الآراء :"
   },
   "imageInputTexts": {
-    "cancelButtonTitle": "يلغي",
+    "cancelButtonTitle": "الغاء",
     "ifImageLibraryPermissionDenied": "تحتاج إلى تمكين إذن للوصول إلى مكتبة الصور",
     "ifCameraPermissionDenied": "تحتاج إلى تمكين إذن للوصول إلى الكاميرا الخاصة بك",
     "deleteMessageHeader": "حذف",
@@ -881,7 +881,7 @@
     "listingDescriptionLabel": "وصف",
     "contactTitle": "بيانات المتصل",
     "zipCodeLabel": "الرمز البريدي",
-    "addressLabel": "تبوك",
+    "addressLabel": "العنوان",
     "websiteErrorLabel": "أدخل عنوان URL الصحيح!",
     "geoAddressLabel": "العنوان الجغرافي",
     "phoneLabel": "هاتف",
@@ -899,7 +899,7 @@
     "submitButtonTitle": "أرسل الآن",
     "successTitle": "تهنئة!",
     "successMessage": "تم نشر إعلانك بنجاح",
-    "goBackBtnTitle": "عُد",
+    "goBackBtnTitle": "رجوع",
     "socialProfileTitle": "لمحات اجتماعية",
     "tryAgainButtonTitle": "حاول مرة أخرى",
     "mapToggleTitle": "لا تظهر الخريطة.",
@@ -1122,7 +1122,7 @@
     },
     {
       "title": "عن هذا التطبيق",
-      "detail": "Classima عبارة عن منصة عبر الإنترنت حيث يمكنك شراء وبيع كل شيء تقريبًا. غالبًا ما يتم إجراء أفضل الصفقات مع الأشخاص الذين يعيشون في مكان قريب. إنه مكان حيث يمكنك الحصول على كل شيء",
+      "detail": "Classima عبارة عن منصة عبر الإنترنت حيث يمكنك شراء وبيع كل شيء تقريبًا. غالبًا ما يتم إجراء أفضل الصفقات مع الأشخاص الذين يعيشون في مكان اغلاق. إنه مكان حيث يمكنك الحصول على كل شيء",
       "id": "about_us"
     },
     {
