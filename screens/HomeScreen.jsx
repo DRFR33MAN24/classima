@@ -50,6 +50,7 @@ import {
   getTrackingPermissionsAsync,
 } from "expo-tracking-transparency";
 import { BackHandler } from "react-native";
+import Carousel, { Pagination } from "react-native-snap-carousel";
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get("screen");
 const { height: windowHeight } = Dimensions.get("window");
@@ -93,8 +94,10 @@ const HomeScreen = ({ navigation }) => {
   const [networkError, setNetworkError] = useState();
   const [retry, setRetry] = useState(false);
   const [scrollButtonVisible, setScrollButtonVisible] = useState(false);
+  const [activeSlide, setActiveSlide] = useState(0);
 
   const iosFlatList = useRef();
+  let _carousel = useRef();
   useScrollToTop(iosFlatList);
 
   const backAction = () => {
@@ -562,6 +565,49 @@ const HomeScreen = ({ navigation }) => {
               </Text>
             </TouchableOpacity>
           )}
+          {!!listingsData?.length && (
+            <View
+              style={{
+                flex: 1,
+
+                justifyContent: "center",
+                alignItems: "center",
+                marginVertical: 20,
+              }}
+            >
+              <Carousel
+                ref={(c) => {
+                  _carousel = c;
+                }}
+                data={listingsData}
+                renderItem={renderFeaturedItem}
+                // onSnapToItem={(index) => setActiveSlide(index)}
+                sliderWidth={Dimensions.get("window").width}
+                itemWidth={Dimensions.get("window").width / 2}
+                layout={"default"}
+              />
+              <Pagination
+                // dotsLength={listingsData.length}
+                dotsLength={5}
+                activeDotIndex={3}
+                containerStyle={{ width: "50%" }}
+                dotStyle={{
+                  width: 10,
+                  height: 10,
+                  borderRadius: 5,
+                  marginHorizontal: 1,
+                  backgroundColor: COLORS.primary,
+                }}
+                inactiveDotStyle={
+                  {
+                    // Define styles for inactive dots here
+                  }
+                }
+                inactiveDotOpacity={0.4}
+                inactiveDotScale={0.6}
+              />
+            </View>
+          )}
         </>
       )}
       {rtl_support ? (
@@ -820,6 +866,14 @@ const HomeScreen = ({ navigation }) => {
     if (timedOut) setTimedOut(false);
   };
 
+  const _renderItem = ({ item, index }) => {
+    return (
+      <View>
+        <Text>{item.title}</Text>
+      </View>
+    );
+  };
+
   return (
     <View style={styles.container}>
       <TabScreenHeader style={{ elevation: 0, zIndex: 2 }} sideBar />
@@ -914,6 +968,7 @@ const HomeScreen = ({ navigation }) => {
               <FontAwesome name="refresh" size={18} color={COLORS.primary} />
             </TouchableOpacity>
           </View>
+
           {/* FlatList */}
           {!!listingsData?.length && (
             <View
