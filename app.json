@@ -30,7 +30,7 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "backgroundColor": "#f85c70",
+      "backgroundColor": "#2273b9",
       "resizeMode": "cover"
     },
     "notification": {
@@ -103,7 +103,7 @@
     "facebookScheme": "b4e557cff856e24ef7fb71275739f196",
     "facebookAppId": "2308084912684858",
     "facebookDisplayName": "sailstore",
-    "scheme": "com.sabilstore",
+    "scheme": "sabilstore",
     "extra": {
       "eas": {
         "projectId": "d8e63bba-f232-4430-97ab-e9983c363ed1"

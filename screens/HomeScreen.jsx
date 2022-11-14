@@ -49,11 +49,81 @@ import {
   requestTrackingPermissionsAsync,
   getTrackingPermissionsAsync,
 } from "expo-tracking-transparency";
-import { BackHandler } from "react-native";
+import { BackHandler, Image } from "react-native";
 import Carousel, { Pagination } from "react-native-snap-carousel";
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get("screen");
 const { height: windowHeight } = Dimensions.get("window");
+
+// const MyCarousel = () => {
+//   let _carousel = useRef();
+//   const [ads, setAds] = useState([]);
+//   const [activeSlide, setActiveSlide] = useState(0);
+
+//   useEffect(() => {
+//     fetch("https://sabilstore/mywebsite/wp-json/myads/v1/all")
+//       .then((response) => response.json())
+//       .then((json) => {
+//         setAds(json.ads);
+//       })
+//       .catch((error) => {
+//         console.error(error);
+//       });
+//   }, []);
+
+//   const goToAd = ({ link }) => {};
+//   const _renderItem = ({ link, img, title, index }) => {
+//     return (
+//       <TouchableOpacity
+//         style={{ justifyContent: "center", alignItems: "center" }}
+//         onPress={() => goToAd(link)}
+//       >
+//         <Image
+//           source={{ uri: img }}
+//           resizeMode="stretch"
+//           width={300}
+//           height={200}
+//           style={{ width: 300, height: 200 }}
+//         />
+//       </TouchableOpacity>
+//     );
+//   };
+
+//   return (
+//     <View>
+//       <Carousel
+//         ref={(c) => {
+//           _carousel = c;
+//         }}
+//         data={ads}
+//         renderItem={_renderItem}
+//         onSnapToItem={(index) => setActiveSlide(index)}
+//         sliderWidth={Dimensions.get("window").width}
+//         itemWidth={Dimensions.get("window").width}
+//         layout={"default"}
+//       />
+//       <Pagination
+//         dotsLength={ads.length}
+//         activeDotIndex={activeSlide}
+//         containerStyle={{ width: "50%" }}
+//         dotStyle={{
+//           width: 10,
+//           height: 10,
+//           borderRadius: 5,
+//           marginHorizontal: 1,
+//           backgroundColor: COLORS.primary,
+//         }}
+//         inactiveDotStyle={
+//           {
+//             // Define styles for inactive dots here
+//           }
+//         }
+//         inactiveDotOpacity={0.4}
+//         inactiveDotScale={0.6}
+//       />
+//     </View>
+//   );
+// };
 
 const HomeScreen = ({ navigation }) => {
   const [
@@ -94,10 +164,9 @@ const HomeScreen = ({ navigation }) => {
   const [networkError, setNetworkError] = useState();
   const [retry, setRetry] = useState(false);
   const [scrollButtonVisible, setScrollButtonVisible] = useState(false);
-  const [activeSlide, setActiveSlide] = useState(0);
 
   const iosFlatList = useRef();
-  let _carousel = useRef();
+
   useScrollToTop(iosFlatList);
 
   const backAction = () => {
@@ -574,39 +643,7 @@ const HomeScreen = ({ navigation }) => {
                 alignItems: "center",
                 marginVertical: 20,
               }}
-            >
-              <Carousel
-                ref={(c) => {
-                  _carousel = c;
-                }}
-                data={listingsData}
-                renderItem={renderFeaturedItem}
-                // onSnapToItem={(index) => setActiveSlide(index)}
-                sliderWidth={Dimensions.get("window").width}
-                itemWidth={Dimensions.get("window").width / 2}
-                layout={"default"}
-              />
-              <Pagination
-                // dotsLength={listingsData.length}
-                dotsLength={5}
-                activeDotIndex={3}
-                containerStyle={{ width: "50%" }}
-                dotStyle={{
-                  width: 10,
-                  height: 10,
-                  borderRadius: 5,
-                  marginHorizontal: 1,
-                  backgroundColor: COLORS.primary,
-                }}
-                inactiveDotStyle={
-                  {
-                    // Define styles for inactive dots here
-                  }
-                }
-                inactiveDotOpacity={0.4}
-                inactiveDotScale={0.6}
-              />
-            </View>
+            ></View>
           )}
         </>
       )}
@@ -864,14 +901,6 @@ const HomeScreen = ({ navigation }) => {
   const handleRetry = () => {
     setLoading(true);
     if (timedOut) setTimedOut(false);
-  };
-
-  const _renderItem = ({ item, index }) => {
-    return (
-      <View>
-        <Text>{item.title}</Text>
-      </View>
-    );
   };
 
   return (
