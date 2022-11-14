@@ -103,7 +103,7 @@
     "facebookScheme": "b4e557cff856e24ef7fb71275739f196",
     "facebookAppId": "2308084912684858",
     "facebookDisplayName": "sailstore",
-    "scheme": "sabilstore",
+    "scheme": "com.sabilstore",
     "extra": {
       "eas": {
         "projectId": "d8e63bba-f232-4430-97ab-e9983c363ed1"
