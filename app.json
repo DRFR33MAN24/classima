@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Sabilstore",
+    "name": "سبيل",
     "slug": "sabilstore",
     "version": "1.0.0",
     "plugins": [
@@ -42,9 +42,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "usesAppleSignIn": true,
       "supportsTablet": true,
@@ -60,9 +58,7 @@
         "NSLocationAlwaysUsageDescription": "Your App Name uses device location on listing information, Listing search Data and User information.",
         "NSMicrophoneUsageDescription": "Your App Name uses your microphone while taking video of your product for uploading in listing information.",
         "CFBundleAllowMixedLocalizations": true,
-        "UIBackgroundModes": [
-          "remote-notification"
-        ],
+        "UIBackgroundModes": ["remote-notification"],
         "NSUserTrackingUsageDescription": "Classima wants to track you to collect IDFA to deliver personalised ads."
       },
       "config": {
@@ -80,10 +76,7 @@
           "apiKey": "AIzaSyD6PtuS6NNCdz1kZQ6o8d7dinM7J6-x_QA"
         }
       },
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#fff"
-      },
+
       "permissions": [
         "CAMERA",
         "CAMERA_ROLL",
