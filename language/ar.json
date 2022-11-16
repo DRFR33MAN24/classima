@@ -101,7 +101,7 @@
     "title": "عنوان البريد الالكترونى",
     "message": "أدخل عنوان بريدك الإلكتروني لإعادة تعيين كلمة المرور.",
     "placeholder": "اسم المستخدم / عنوان البريد الإلكتروني",
-    "buttonTitle": "يكمل",
+    "buttonTitle": "تأكيد",
     "passwordReset": "ستتلقى بريدًا إلكترونيًا يحتوي على رابط لإعادة تعيين كلمة المرور الخاصة بك.",
     "resetSuccessMessage": "تم إرسال رابط لإعادة تعيين كلمة المرور الخاصة بك إلى بريدك الإلكتروني"
   },
@@ -318,8 +318,8 @@
       "openTodayText": "مفتوح اليوم (24 ساعة)",
       "closeText": "مغلق",
       "closeTodayText": "مغلق اليوم",
-      "currentStatusOpen": "نحن مفتوحون حاليا.",
-      "currentStatusClose": "عذرا ، نحن مغلقون حاليا."
+      "currentStatusOpen": "المتجر مفنوح حاليا",
+      "currentStatusClose": "عذرا ،المتجر مغلق حاليا."
     },
     "whatsappButton": "افتح Whatsapp",
     "showRatingBtn": "إظهار التقييمات",
@@ -345,7 +345,7 @@
     "submitBtn": "تأكيد",
     "reviewNotice": "تم تقديم رأيك بنجاح. بمجرد الموافقة عليه ، سيتم عرضه مع المراجعات الأخرى.",
     "reviewApproved": "كانت المراجعة ناجحة.",
-    "postTimePrefix": "نشر على",
+    "postTimePrefix": "تاريخ النشر",
     "deletedValue": "[تمت إزالة القيمة بواسطة المشرف]",
     "seeAllAds": "مشاهدة جميع الإعلانات",
     "verified": "بائع معتمد"
@@ -460,7 +460,7 @@
     "screenTitle": "معلومات شخصية",
     "infoSectionTitle": "معلومات شخصية",
     "editButtonTitle": "تعديل المعلومات",
-    "verifyBtnTitle": "يؤكد",
+    "verifyBtnTitle": "تأكيد",
     "addPhoneBtnTitle": "أضف رقم الهاتف"
   },
   "myStoreTexts": {
@@ -765,7 +765,7 @@
     "viewMoreButtonText": "عرض المزيد حول هذا المتجر",
     "latestAds": "أحدث الإعلانات",
     "cancelButtonTitle": "الغاء",
-    "viewsCount": "الآراء :",
+    "viewsCount": "المشاهدات :",
     "noData": "لم يتم تقديم البيانات.",
     "loginButtonTitle": "تسجيل الدخول",
     "loginAlert": "الرجاء تسجيل الدخول لإرسال البريد إلى المتجر",
@@ -843,7 +843,7 @@
     "selectText": "حدد أ"
   },
   "favouritesItemTexts": {
-    "viewsText": "الآراء :"
+    "viewsText": "المشاهدات :"
   },
   "imageInputTexts": {
     "cancelButtonTitle": "الغاء",
@@ -925,7 +925,7 @@
     }
   },
   "myAdsListItemTexts": {
-    "viewsText": "الآراء :",
+    "viewsText": "المشاهدات :",
     "soldOut": "نفذ"
   },
   "OHTimePickerTexts": {
@@ -940,7 +940,7 @@
     "chat": "دردشة"
   },
   "similarAdListItemTexts": {
-    "viewsText": "الآراء :"
+    "viewsText": "المشاهدات :"
   },
   "membershipCardTexts": {
     "ads": "إعلانات",
@@ -1283,18 +1283,18 @@
     }
   ],
   "relativeTime": {
-    "future": "في٪ s",
-    "past": "قبل٪ s",
+    "future": "في %s",
+    "past": "قبل %s",
     "s": "بضع ثوان",
     "m": "دقيقة واحدة",
-    "mm": "٪ d دقيقة",
+    "mm": "%d دقيقة",
     "h": "ساعة واحدة",
-    "hh": "٪ d ساعة",
+    "hh": "%d ساعة",
     "d": "يوم واحد",
-    "dd": "٪ d يوم",
+    "dd": "%d يوم",
     "M": "شهر واحد",
-    "MM": "٪ d شهر",
+    "MM": "%d شهر",
     "y": "سنة واحدة",
-    "yy": "٪ d سنوات"
+    "yy": "%d سنوات"
   }
 }
